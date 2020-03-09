@@ -26,17 +26,14 @@ animation: pulse 4s linear infinite;
 @keyframes pulse {
 	0% {
 		transform: scale(0.95);
-		/* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7); */
 	}
 
 	70% {
-		transform: scale(1.1);
-		/* box-shadow: 0 0 0 10px rgba(0, 0, 0, 0); */
+        transform: scale(1.1);
 	}
 
 	100% {
 		transform: scale(0.95);
-		/* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); */
 	}
 }
 #js-img{
@@ -77,6 +74,7 @@ animation: shadow 5s linear infinite;
 width: 150px;
 height: 100%;
 position: fixed;
+z-index: 10000;
 background: var(--dark-color);
 display: flex;
 flex-direction: column;
@@ -268,4 +266,84 @@ color: #ADADAD;
 }
 #real-progress-9{
     width: 60%;
+}
+.tech-mainImg, .tech-mask{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+z-index: 3;
+}
+.tech-mask{
+width: 100%;
+height: auto;
+background: rgba(0,0,0,0.5);
+position: absolute;
+z-index: 2;
+border-radius: 10px;
+}
+#netflix{
+background-image: url(../img/projects/netflix/netflix-bckg.png);
+background-size: cover;
+}
+
+
+
+
+
+/* triangle test */
+#experience{
+position: relative;
+background: url(../img/section-bckg/black-white.png);
+background-size:  calc(100% - 150px) 100%;
+background-position: right;
+}
+.experience-grid{
+width: 90%;
+margin: 80px auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+}
+.grid-circle{
+width: 20px;
+height: 20px;
+position: absolute;
+border-radius: 50%;
+background: var(--accent-color);
+top:0;
+left: -11px;
+}
+.circle-left{
+right: -12px;
+left: auto;
+}
+.grid-abs{
+position: relative;
+padding: 0 40px 0 40px;
+color: var(--accent-color);
+}
+.grid-border{
+    border-right: 2px solid var(--accent-color);
+    text-align: right;
+    color: var(--dark-section-color);
+    }
+.exp-head{
+font-size: 45px;
+font-weight: 300;
+}
+.exp-date{
+font-size: 30px;
+font-weight: 500;
+margin: 20px 0;
+}
+.exp-desc{
+font-size: 20px;
+font-weight: 300;
+margin-left: 20%;
+}
+#exp-descR{
+margin-left: 0;
 }
