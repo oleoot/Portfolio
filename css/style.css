@@ -70,6 +70,30 @@ animation: shadow 5s linear infinite;
         transform: rotate(0deg)
         }
     }
+
+    /* About */
+#about{
+height: 100vh;
+width: 100%;
+}
+.about-blackBg{
+position: absolute;
+width: 100%;
+height: 50vh;
+background: var(--dark-section-color);
+}
+.about-whiteBlock{
+width: 65%;
+height: 450px;
+background: #fff;
+position: absolute;
+top: 50%;
+left: 0;
+right: 0;
+margin: auto;
+transform: translateY(-50%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .nav{
 width: 150px;
 height: 100%;
@@ -107,26 +131,49 @@ height: 90px;
 border: 2px solid var(--accent-color);
 background: none;
 font-size: 28px;
-margin-top: 60px;
-float: right;
+position: absolute;
+bottom: -200px;
+left:0;
+right: 0;
+margin: auto;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+line-height: 90px;
+color: var(--dark-section-color);
 }
 .avatar-img{
 display: block;
-padding-top: 28%;
-margin: 0 auto 30px;
+position: absolute;
+top: -50%;
+right: 0;
+left: 0;
+margin: auto;
+border-radius: 50%;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .h1-name{
-text-align: center;
+display: block;
+position: absolute;
+z-index: 10;
+right: 50px;
+top: 30px;
 font-size: 60px;
+color: var(--accent-color);
 }
 .social-icons{
-width: 295px;
-margin: 30px auto;
+position: absolute;
+right: 50px;
+top: 50%;
+transform: translateY(-50%);
+display: flex;
+flex-direction: column;
+
 }
 .social-icons img{
-width: 50px;
-height: 50px;
-margin: 0 10px;
+width: 60px;
+height: 60px;
+margin: 30px 0px;
 }
 /* TECH */
 .p-head{
@@ -206,19 +253,26 @@ height: 60px;
 border: none;
 border-bottom: 1px solid #000;
 margin-bottom: 40px;
+outline: none;
+font-size: 30px;
+font-weight: 300;
 }
 .btn-send{
 float: left;
 font-size: 22px;
 }
 /* FOOTER */
+#footer{
+display: flex;
+justify-content: center;
+}
 .footer-icons{
-margin: auto;
 padding: 30px 0;
 }
 .footer-icons a img{
 width: 40px;
 height: 40px;
+margin: 0 10px;
 }
 /* Utility classes */
 section:not(:first-child){
@@ -228,7 +282,17 @@ padding: 100px 0;
 background: var(--dark-section-color);
 }
 .p-light{
-font-weight: 300;
+font-size: 20px;
+text-align: center;
+width: 70%;
+color: var(--accent-color);
+font-weight: normal;
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+bottom: 10%;
+line-height: 50px;
 }
 .p-number{
 text-transform: uppercase;
@@ -346,4 +410,12 @@ margin-left: 20%;
 }
 #exp-descR{
 margin-left: 0;
+}
+#education{
+background: url(../img/section-bckg/black-white-reversed.png);
+background-size:  calc(100% - 150px) 100%;
+background-position: right;
+}
+.grid-light{
+color: var(--accent-color);
 }
