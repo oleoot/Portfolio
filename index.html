@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/keyframes.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Oleg Kuts Portfolio</title>
 </head>
@@ -18,22 +20,17 @@
             <a href="#react"><img src="img/icons/react.png" alt="react" id="react-img"></a>
             <a href="#animation"><img src="img/icons/animation.png" alt="animation" id="animation-img"></a>
         </nav>
-        <h1 class="h1-name">Олег Куць</h1>
-        <div class="about-blackBg"></div>
 
-        <div class="about-whiteBlock">
+        <h1 class="name">Олег Куць</h1>
+        <div class="about-top"></div>
+        <div class="about-center">
             <img src="img/avatar/avatar1.png" alt="avatar" class="avatar-img">
-            <p class="p-light">Я начинающий web - разработчик, который увлечен своим делом. Разрабатываю сайты с
+            <p class="about-headline">Я начинающий web - разработчик, который увлечен своим делом. Разрабатываю сайты с
                 минимальным использованием библиотек постоянно слежу за развитием технологий. Сейчас я открыт для
                 предложений о работе.
             </p>
             <a href="cv-file/Oleg-Kuts-CV.pdf" download class="btn">Скачать CV</a>
         </div>
-
-
-
-
-
 
         <div class="social-icons">
             <a href="tg://resolve?domain=oleoot"><img src="img/icons/icons-white/telegram.svg" alt="telegram"></a>
@@ -44,265 +41,265 @@
             <a href="mailto:oleg.kouts@gmail.com"><img src="img/icons/mail.svg" alt="mail"></a>
         </div>
 
-
-
-
-
     </section>
+
     <section id="tech">
         <div class="container">
-            <p class="p-head">Владение технологиями</p>
+            <p class="section-headline">Владение технологиями</p>
 
-            <div class="tech-wrap">
-                <div class="tech-type">
+            <div class="items-wrap">
+                <div class="items-s">
 
-                    <p class="tech-head">Html</p>
-                    <p class="tech-head tech-percent">85%</p>
+                    <p class="tech-headline">Html</p>
+                    <p class="tech-headline tech-percent">85%</p>
 
-                    <div class="progress-line">
-                        <div class="real-progress" id="real-progress-1"></div>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-1"></div>
                     </div>
                 </div>
-                <div class="tech-type">
-                    <p class="tech-head">jQuery</p>
-                    <p class="tech-head tech-percent">15%</p>
-                    <div class="progress-line">
-                        <div class="real-progress" id="real-progress-2"></div>
-                    </div>
-
-                </div>
-                <div class="tech-type">
-                    <p class="tech-head">Sass</p>
-                    <p class="tech-head tech-percent">50%</p>
-                    <div class="progress-line">
-                        <div class="real-progress" id="real-progress-3"></div>
+                <div class="items-s">
+                    <p class="tech-headline">jQuery</p>
+                    <p class="tech-headline tech-percent">15%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-2"></div>
                     </div>
 
                 </div>
-                <div class="tech-type">
-                    <p class="tech-head">Css</p>
-                    <p class="tech-head tech-percent">85%</p>
-                    <div class="progress-line">
-                        <div class="real-progress" id="real-progress-4"></div>
+                <div class="items-s">
+                    <p class="tech-headline">Sass</p>
+                    <p class="tech-headline tech-percent">50%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-3"></div>
                     </div>
 
                 </div>
-                <div class="tech-type">
-                    <p class="tech-head">React</p>
-                    <p class="tech-head tech-percent">30%</p>
-                    <div class="progress-line">
-                        <div class="real-progress" id="real-progress-5"></div>
+                <div class="items-s">
+                    <p class="tech-headline">Css</p>
+                    <p class="tech-headline tech-percent">85%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-4"></div>
                     </div>
 
                 </div>
-                <div class="tech-type">
-                    <p class="tech-head">Ps/Figma</p>
-                    <p class="tech-head tech-percent">80%</p>
-                    <div class="progress-line">
-                        <div class="real-progress" id="real-progress-6"></div>
+                <div class="items-s">
+                    <p class="tech-headline">React</p>
+                    <p class="tech-headline tech-percent">30%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-5"></div>
                     </div>
 
                 </div>
-                <div class="tech-type">
-                    <p class="tech-head">JavaScript</p>
-                    <p class="tech-head tech-percent">60%</p>
-                    <div class="progress-line">
-                        <div class="real-progress" id="real-progress-7"></div>
+                <div class="items-s">
+                    <p class="tech-headline">Ps/Figma</p>
+                    <p class="tech-headline tech-percent">80%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-6"></div>
                     </div>
 
                 </div>
-                <div class="tech-type">
-                    <p class="tech-head">Node.js</p>
-                    <p class="tech-head tech-percent">10%</p>
-                    <div class="progress-line">
-                        <div class="real-progress" id="real-progress-8"></div>
+                <div class="items-s">
+                    <p class="tech-headline">JavaScript</p>
+                    <p class="tech-headline tech-percent">60%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-7"></div>
                     </div>
 
                 </div>
-                <div class="tech-type">
-                    <p class="tech-head">Git</p>
-                    <p class="tech-head tech-percent">60%</p>
-                    <div class="progress-line">
-                        <div class="real-progress" id="real-progress-9"></div>
+                <div class="items-s">
+                    <p class="tech-headline">Node.js</p>
+                    <p class="tech-headline tech-percent">10%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-8"></div>
+                    </div>
+
+                </div>
+                <div class="items-s">
+                    <p class="tech-headline">Git</p>
+                    <p class="tech-headline tech-percent">60%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-9"></div>
                     </div>
 
                 </div>
             </div>
-            <p class="p-number">01</p>
+            <p class="section-number">01</p>
         </div>
     </section>
 
 
-    <section id="experience">
+    <section id="experience" class="triangle-bg">
 
         <div class="container">
-            <p class="p-head">Опыт работы</p>
-            <div class="experience-grid">
-                <div class="grid-border grid-abs">
-                    <p class="exp-head">Интервьюер в GFK Ukraine</p>
-                    <p class="exp-date">01.06.2016-10.08.2016</p>
-                    <p class="exp-desc">Занимался проведением социальных опросов, а также брал интервью у многих людей
+            <p class="section-headline">Опыт работы</p>
+            <div class="experience-wrap">
+                <div class="experience-block-border experience-block-bottom">
+                    <p class="experience-headline">Интервьюер в GFK Ukraine</p>
+                    <p class="experience-date">01.06.2016-10.08.2016</p>
+                    <p class="experience-description">Занимался проведением социальных опросов, а также брал интервью у
+                        многих людей
                         на разные тематики
                     </p>
-                    <div class="grid-circle circle-left"></div>
+                    <div class="experience-dot experience-dot-top"></div>
                 </div>
                 <div></div>
-                <div class="grid-border"></div>
-                <div class="grid-abs">
-                    <p class="exp-head">Продавец-консультант в Good Wine</p>
-                    <p class="exp-date">20.07.2017 – 01.06.2019</p>
-                    <p class="exp-desc" id="exp-descR">Занимался консультацией людей по
+                <div class="experience-block-border"></div>
+                <div class="experience-block-bottom">
+                    <p class="experience-headline experience-headline-right">Продавец-консультант в Good Wine</p>
+                    <p class="experience-date">20.07.2017 – 01.06.2019</p>
+                    <p class="experience-description experience-description-right">Занимался консультацией людей по
                         поводу овощей/фруктов, принимал и выставлял товар, работал с базами данных</p>
-                    <div class="grid-circle"></div>
+                    <div class="experience-dot"></div>
                 </div>
             </div>
-            <p class="p-number">02</p>
+            <p class="section-number">02</p>
         </div>
     </section>
-    <section id="education">
+    <section id="education" class="triangle-bg">
 
         <div class="container">
-            <p class="p-head">Образование</p>
-            <div class="experience-grid">
-                <div class="grid-border grid-abs grid-light">
-                    <p class="exp-head">Курсы web - разработки ITEA ( HTML / CSS )</p>
-                    <p class="exp-date">16.10.2018 – 06.12.2018</p>
-                    <p class="exp-desc">Закончил курс HTML/CSS, где узнал базу, а
+            <p class="section-headline">Образование</p>
+            <div class="experience-wrap">
+                <div class="experience-block-border experience-block-bottom light-text">
+                    <p class="experience-headline">Курсы web - разработки ITEA ( HTML / CSS )</p>
+                    <p class="experience-date">16.10.2018 – 06.12.2018</p>
+                    <p class="experience-description">Закончил курс HTML/CSS, где узнал базу, а
                         также научился
                         делать простые, одностраничные сайты с помощью этих инструментов
                     </p>
-                    <div class="grid-circle circle-left"></div>
+                    <div class="experience-dot experience-dot-top"></div>
                 </div>
                 <div></div>
-                <div class="grid-border"></div>
-                <div class="grid-abs">
-                    <p class="exp-head">Курсы web - разработки ITEA (JS Base/JS Advanced)
+                <div class="experience-block-border"></div>
+                <div class="experience-block-bottom">
+                    <p class="experience-headline experience-headline-right">Курсы web - разработки ITEA (JS Base/JS
+                        Advanced)
                     </p>
-                    <p class="exp-date">10.12.2018 - 08.02.2019</p>
-                    <p class="exp-desc" id="exp-descR">Обучился
+                    <p class="experience-date">10.12.2018 - 08.02.2019</p>
+                    <p class="experience-description experience-description-right">Обучился
                         JavaScript, работал с DOM, функциями, массивами, объектами, ивентами,
                         анимациями, прототипами. </p>
-                    <div class="grid-circle"></div>
+                    <div class="experience-dot"></div>
                 </div>
 
             </div>
-            <p class="p-number">03</p>
+            <p class="section-number">03</p>
         </div>
     </section>
 
     <section id="html">
         <div class="container">
-            <p class="p-head">Html & Css <span>Проекты</span></p>
-            <div class="tech-wrap">
-                <div class="tech-type html-project" id="netflix">
-                    <img src="img/projects/netflix/logo 1.png" alt="netflix" class="tech-mainImg">
+            <p class="section-headline">Html & Css <span>Проекты</span></p>
+            <div class="items-wrap">
+                <a href="https://netflix-main-page.netlify.com/" target="_blank" class="items-s items-m" id="netflix">
+                    <!-- <p class="items-name">NETFLIX</p> -->
+                    <img src="img/projects/netflix/logo 1.png" alt="netflix" class="items-m-img">
 
+                </a>
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
-                </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
             </div>
-            <p class="p-number">04</p>
+            <p class="section-number">04</p>
         </div>
     </section>
 
     <section id="js">
         <div class="container">
-            <p class="p-head">JavaScript <span>Проекты</span></p>
-            <div class="tech-wrap">
-                <div class="tech-type html-project">
+            <p class="section-headline">JavaScript <span>Проекты</span></p>
+            <div class="items-wrap">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
             </div>
-            <p class="p-number">05</p>
+            <p class="section-number">05</p>
         </div>
     </section>
     <section id="react">
         <div class="container">
-            <p class="p-head">React <span>Проекты</span></p>
-            <div class="tech-wrap">
-                <div class="tech-type html-project">
+            <p class="section-headline">React <span>Проекты</span></p>
+            <div class="items-wrap">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
             </div>
-            <p class="p-number">06</p>
+            <p class="section-number">06</p>
         </div>
     </section>
 
     <section id="animation">
         <div class="container">
-            <p class="p-head">Animation <span>Проекты</span></p>
-            <div class="tech-wrap">
-                <div class="tech-type html-project">
+            <p class="section-headline">Animation <span>Проекты</span></p>
+            <div class="items-wrap">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
-                <div class="tech-type html-project">
+                <div class="items-s items-m">
                 </div>
             </div>
-            <p class="p-number">07</p>
+            <p class="section-number">07</p>
         </div>
     </section>
 
     <section id="certificate">
         <div class="container">
-            <p class="p-head">Дипломы и сертификаты</p>
-            <div class="tech-wrap">
-                <div class="tech-type certificate">
+            <p class="section-headline">Дипломы и сертификаты</p>
+            <div class="items-wrap">
+                <div class="items-s items-l">
                 </div>
-                <div class="tech-type certificate">
+                <div class="items-s items-l">
                 </div>
-                <div class="tech-type certificate">
+                <div class="items-s items-l">
                 </div>
             </div>
-            <p class="p-number">08</p>
+            <p class="section-number">08</p>
         </div>
 
         </div>
@@ -311,7 +308,7 @@
 
     <section id="contact">
         <div class="container">
-            <p class="p-head">Связаться со мной</p>
+            <p class="section-headline">Связаться со мной</p>
             <div class="contact">
                 <p>Имя</p>
                 <input type="name">
@@ -319,9 +316,9 @@
                 <input type="email">
                 <p>Сообщение:</p>
                 <input type="text">
-                <button class="btn-send">Отправить сообщение</button>
+                <button class="btn contact-btn">Отправить сообщение</button>
             </div>
-            <p class="p-number">09</p>
+            <p class="section-number">09</p>
         </div>
 
         </div>
