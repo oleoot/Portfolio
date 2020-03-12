@@ -149,6 +149,8 @@ border-radius: 10px;
 /* ============== Experience Section========================================================================================= */
 #experience{
 background: url(../img/section-bckg/black-white.png);
+background-size: calc(100% - 150px) 100%;
+background-position: right;
 }
 .experience-wrap{
 width: 90%;
@@ -204,6 +206,8 @@ margin-left: 0;
 
 #education{
 background: url(../img/section-bckg/black-white-reversed.png);
+background-size: calc(100% - 150px) 100%;
+background-position: right;
 }
 .light-text{
 color: var(--accent-color);
@@ -311,56 +315,6 @@ text-align: right;
 font-size: 60px;
 font-weight: 300;
 }
-.triangle-bg{
-background-size:  calc(100% - 150px) 100%;
-background-position: right;
-}
 span{
 color: #ADADAD;
-}
-/* HTML & CSS Projects */
-#netflix{
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/netflix/netflix-bckg.png);
-background-size: cover;
-}
-#myTunes{
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/myTunes/showcase.png);
-}
-#youfruit{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/youfruit/youfruit-bg.png);
-}
-#dji{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/dji/dji-bg.png);
-}
-/* JavaScript Projects */
-#weather{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/weather/weather-bg.png);
-}
-#showroom{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/showroom/showroom-bg.png);
-}
-#airpods{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/airpods/airpods-bg.png);
-}
-#drums{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/drums/drums-bg.png);
-}
-#text-to-speech{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/text-to-speech/text-to-speech-bg.png);
-}
-/* Animation Projects */
-#glitch-effect{
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/glitch/glitch-bg.png);
-}
-#change-cursor{
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/change-cursor/change-cursor-bg.png);
-}
-#neon-text{
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/neon-text/neon-text-bg.png);
-}
-#block-reveal{
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/block-reveal/block-reveal-bg.png);
-}
-#typewritting{
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/type-writting/typewritting-bg.png);
 }
