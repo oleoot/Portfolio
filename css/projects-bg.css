@@ -28,6 +28,14 @@
     #text-to-speech{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/text-to-speech/text-to-speech-bg.png);
     }
+    /* React Projects */
+    #expense-tracker{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/expense-tracker/expense-tracker-bg.png);
+    }
+    #recipe-search{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/recipe-searching/recipe-search-bg.png);
+    }
+
     /* Animation Projects */
     #glitch-effect{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/glitch/glitch-bg.png);

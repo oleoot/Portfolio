@@ -41,3 +41,12 @@ $(".items-m").on("mouseleave", function () {
     cursor.removeClass("active");
     follower.removeClass("active");
 });
+// Smooth scrolling
+$(document).ready(function () {
+    $(".nav").on("click", "a", function (event) {
+        event.preventDefault();
+        let id = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({ scrollTop: top }, 1500);
+    });
+});
