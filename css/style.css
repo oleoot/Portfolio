@@ -68,7 +68,11 @@ align-items: center;
 justify-content: center;
 }
 .nav a{
-padding: 30px;
+padding: 20px;
+}
+.nav a img{
+width: 50px;
+/* height: 60px;    */
 }
 .btn{
 width: 16vw;
@@ -727,5 +731,8 @@ font-size: 20px;
 }
 .contact p{
 font-size: 4.5vw;
+}
+.contact-btn{
+font-size: 3.5vw;
 }
 }

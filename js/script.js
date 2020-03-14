@@ -169,21 +169,21 @@ const sceneFilling = new ScrollMagic.Scene({
 
 
 
-sHeadline.add(
-    TweenMax.from(".section-headline ", 1, {
-        opacity: 0,
-        height: 0,
-        y: 20,
-        ease: Expo.easeInOut
-    }),
-)
-const controllerHeadline = new ScrollMagic.Controller();
-const sceneHeadline = new ScrollMagic.Scene({
-    triggerElement: "#tech",
-    triggerHook: 0.9,
-})
-    .setTween(sHeadline)
-    .addTo(controllerHeadline);
+// sHeadline.add(
+//     TweenMax.from(".section-headline ", 1, {
+//         opacity: 0,
+//         height: 0,
+//         y: 20,
+//         ease: Expo.easeInOut
+//     }),
+// )
+// const controllerHeadline = new ScrollMagic.Controller();
+// const sceneHeadline = new ScrollMagic.Scene({
+//     triggerElement: "#tech",
+//     triggerHook: 0.9,
+// })
+//     .setTween(sHeadline)
+//     .addTo(controllerHeadline);
 
 
 // ========= Experience Animation =======================================================================================================
@@ -198,7 +198,7 @@ expTopLeft.add(
 const controllerExpTopLeft = new ScrollMagic.Controller();
 const sceneExpTopLeft = new ScrollMagic.Scene({
     triggerElement: "#experience",
-    triggerHook: 0.5,
+    triggerHook: 0.8,
 })
     .setTween(expTopLeft)
     .addTo(controllerExpTopLeft);
@@ -215,7 +215,7 @@ expBottomLeft.add(
 const controllerExpBottomLeft = new ScrollMagic.Controller();
 const sceneExpBottomLeft = new ScrollMagic.Scene({
     triggerElement: "#experience",
-    triggerHook: 0.5,
+    triggerHook: 0.7,
 })
     .setTween(expBottomLeft)
     .addTo(controllerExpBottomLeft);
@@ -225,7 +225,7 @@ const sceneExpBottomLeft = new ScrollMagic.Scene({
 
 const expBottomRight = new TimelineLite();
 expBottomRight.add(
-    TweenMax.from("#experience-grid-bottom-right", 2, {
+    TweenMax.from("#experience-grid-bottom-right", 1, {
         opacity: 0,
         ease: Expo.easeInOut
     }),
@@ -233,7 +233,7 @@ expBottomRight.add(
 const controllerExpBottomRight = new ScrollMagic.Controller();
 const sceneExpBottomRight = new ScrollMagic.Scene({
     triggerElement: "#experience",
-    triggerHook: 0.2,
+    triggerHook: 0.5,
 })
     .setTween(expBottomRight)
     .addTo(controllerExpBottomRight);
@@ -242,7 +242,7 @@ const sceneExpBottomRight = new ScrollMagic.Scene({
 
 const eduTopLeft = new TimelineLite();
 eduTopLeft.add(
-    TweenMax.from("#education-grid-top-left", 2, {
+    TweenMax.from("#education-grid-top-left", 1, {
         opacity: 0,
         ease: Expo.easeInOut
     }),
@@ -251,7 +251,7 @@ eduTopLeft.add(
 const controllerEduTopLeft = new ScrollMagic.Controller();
 const sceneEduTopLeft = new ScrollMagic.Scene({
     triggerElement: "#education",
-    triggerHook: 0.5,
+    triggerHook: 0.8,
 })
     .setTween(eduTopLeft)
     .addTo(controllerEduTopLeft);
@@ -261,7 +261,7 @@ const sceneEduTopLeft = new ScrollMagic.Scene({
 
 const eduBottomLeft = new TimelineLite();
 eduBottomLeft.add(
-    TweenMax.from("#education-grid-bottom-left", 2, {
+    TweenMax.from("#education-grid-bottom-left", 1, {
         opacity: 0,
         ease: Expo.easeInOut
     }),
@@ -269,7 +269,7 @@ eduBottomLeft.add(
 const controllerEduBottomLeft = new ScrollMagic.Controller();
 const sceneEduBottomLeft = new ScrollMagic.Scene({
     triggerElement: "#education",
-    triggerHook: 0.5,
+    triggerHook: 0.7,
 })
     .setTween(eduBottomLeft)
     .addTo(controllerEduBottomLeft);
@@ -278,7 +278,7 @@ const sceneEduBottomLeft = new ScrollMagic.Scene({
 
 const eduBottomRight = new TimelineLite();
 eduBottomRight.add(
-    TweenMax.from("#education-grid-bottom-right", 2, {
+    TweenMax.from("#education-grid-bottom-right", 1, {
         opacity: 0,
         ease: Expo.easeInOut
     }),
@@ -286,7 +286,7 @@ eduBottomRight.add(
 const controllerEduBottomRight = new ScrollMagic.Controller();
 const sceneEduBottomRight = new ScrollMagic.Scene({
     triggerElement: "#education",
-    triggerHook: 0.2,
+    triggerHook: 0.5,
 })
     .setTween(eduBottomRight)
     .addTo(controllerEduBottomRight);
