@@ -1,4 +1,4 @@
-// ================ New cursor movement =============================================================
+// ================ New cursor movement ==============================================================================================
 let cursor = $('.cursor'),
     follower = $('.cursor-follower');
 
@@ -41,7 +41,7 @@ $(".items-m").on("mouseleave", function () {
     cursor.removeClass("active");
     follower.removeClass("active");
 });
-// ========= Smooth scrolling ===========================================================
+// ========= Smooth scrolling ========================================================================================================
 $(document).ready(function () {
     $(".nav").on("click", "a", function (event) {
         event.preventDefault();
@@ -50,7 +50,7 @@ $(document).ready(function () {
         $('body,html').animate({ scrollTop: top }, 1500);
     });
 });
-// ========= Animations =================================================================
+// ========= Main page Animation =======================================================================================================
 TweenMax.from(".about-center", 1.6, {
     opacity: 0,
     delay: 0.2,
@@ -82,7 +82,7 @@ TweenMax.staggerFrom(".social-icons a img", 1, {
     ease: Power3.easeInOut
 }, 0.08);
 
-
+// ========= Tech Page Animation =======================================================================================================
 const sHeadline = new TimelineLite();
 const tween = new TimelineLite();
 const itemsS = new TimelineLite();
@@ -115,9 +115,6 @@ const sceneItems = new ScrollMagic.Scene({
 
 
 
-
-
-
 tween.add(
     TweenMax.from(".tech-headline", 1, {
         opacity: 0,
@@ -126,8 +123,6 @@ tween.add(
         ease: Expo.easeInOut
     })
 )
-
-
 const controller = new ScrollMagic.Controller();
 const scene = new ScrollMagic.Scene({
     triggerElement: "#tech",
@@ -153,8 +148,6 @@ const sceneProgress = new ScrollMagic.Scene({
 })
     .setTween(progress)
     .addTo(controllerProgress);
-
-
 
 
 
@@ -193,62 +186,179 @@ const sceneHeadline = new ScrollMagic.Scene({
     .addTo(controllerHeadline);
 
 
+// ========= Experience Animation =======================================================================================================
 
-
-
-
-const gridBlockR = new TimelineLite();
-gridBlockR.add(
-    TweenMax.from(".experience-block-border", 2, {
+const expTopLeft = new TimelineLite();
+expTopLeft.add(
+    TweenMax.from("#experience-grid-top-left", 2, {
         opacity: 0,
         ease: Expo.easeInOut
     }),
 )
-const controllerGrid = new ScrollMagic.Controller();
-const sceneGrid = new ScrollMagic.Scene({
+const controllerExpTopLeft = new ScrollMagic.Controller();
+const sceneExpTopLeft = new ScrollMagic.Scene({
     triggerElement: "#experience",
     triggerHook: 0.5,
 })
-    .setTween(gridBlockR)
-    .addTo(controllerGrid);
+    .setTween(expTopLeft)
+    .addTo(controllerExpTopLeft);
 
 
 
-
-
-
-
-const gridBlockRightFirst = new TimelineLite();
-gridBlockRightFirst.add(
-    TweenMax.from(".experience-block-animation", 2, {
+const expBottomLeft = new TimelineLite();
+expBottomLeft.add(
+    TweenMax.from("#experience-grid-bottom-left", 2, {
         opacity: 0,
         ease: Expo.easeInOut
     }),
 )
-const controllerGridBlockRightFirst = new ScrollMagic.Controller();
-const sceneGridRightFirst = new ScrollMagic.Scene({
+const controllerExpBottomLeft = new ScrollMagic.Controller();
+const sceneExpBottomLeft = new ScrollMagic.Scene({
     triggerElement: "#experience",
-    triggerHook: 0.3,
+    triggerHook: 0.5,
 })
-    .setTween(gridBlockRightFirst)
-    .addTo(controllerGridBlockRightFirst);
+    .setTween(expBottomLeft)
+    .addTo(controllerExpBottomLeft);
 
 
 
 
-
-const gridBlockRightSecond = new TimelineLite();
-gridBlockRightSecond.add(
-    TweenMax.from(".experience-block-animation", 2, {
+const expBottomRight = new TimelineLite();
+expBottomRight.add(
+    TweenMax.from("#experience-grid-bottom-right", 2, {
         opacity: 0,
         ease: Expo.easeInOut
     }),
 )
-
-const controllerGridBlockRightSecond = new ScrollMagic.Controller();
-const sceneGridRightSecond = new ScrollMagic.Scene({
-    triggerElement: "#education",
-    triggerHook: 0.3,
+const controllerExpBottomRight = new ScrollMagic.Controller();
+const sceneExpBottomRight = new ScrollMagic.Scene({
+    triggerElement: "#experience",
+    triggerHook: 0.2,
 })
-    .setTween(gridBlockRightSecond)
-    .addTo(controllerGridBlockRightSecond);
+    .setTween(expBottomRight)
+    .addTo(controllerExpBottomRight);
+
+// ========= Education Animation =======================================================================================================
+
+const eduTopLeft = new TimelineLite();
+eduTopLeft.add(
+    TweenMax.from("#education-grid-top-left", 2, {
+        opacity: 0,
+        ease: Expo.easeInOut
+    }),
+
+)
+const controllerEduTopLeft = new ScrollMagic.Controller();
+const sceneEduTopLeft = new ScrollMagic.Scene({
+    triggerElement: "#education",
+    triggerHook: 0.5,
+})
+    .setTween(eduTopLeft)
+    .addTo(controllerEduTopLeft);
+
+
+
+
+const eduBottomLeft = new TimelineLite();
+eduBottomLeft.add(
+    TweenMax.from("#education-grid-bottom-left", 2, {
+        opacity: 0,
+        ease: Expo.easeInOut
+    }),
+)
+const controllerEduBottomLeft = new ScrollMagic.Controller();
+const sceneEduBottomLeft = new ScrollMagic.Scene({
+    triggerElement: "#education",
+    triggerHook: 0.5,
+})
+    .setTween(eduBottomLeft)
+    .addTo(controllerEduBottomLeft);
+
+
+
+const eduBottomRight = new TimelineLite();
+eduBottomRight.add(
+    TweenMax.from("#education-grid-bottom-right", 2, {
+        opacity: 0,
+        ease: Expo.easeInOut
+    }),
+)
+const controllerEduBottomRight = new ScrollMagic.Controller();
+const sceneEduBottomRight = new ScrollMagic.Scene({
+    triggerElement: "#education",
+    triggerHook: 0.2,
+})
+    .setTween(eduBottomRight)
+    .addTo(controllerEduBottomRight);
+
+// ========= Projects Animation =======================================================================================================
+
+// const htmlProjects = new TimelineLite();
+// htmlProjects.add(
+//     TweenMax.staggerFrom(".items-m", 0.5, {
+//         opacity: 0,
+//         y: 20,
+//         ease: Power3.easeInOut
+//     }, 0.08)
+// )
+// const controllerHtmlProjects = new ScrollMagic.Controller();
+// const sceneHtmlProjects = new ScrollMagic.Scene({
+//     triggerElement: "#html",
+//     triggerHook: 0.3,
+// })
+//     .setTween(htmlProjects)
+//     .addTo(controllerHtmlProjects);
+
+// const jsProjects = new TimelineLite();
+// jsProjects.add(
+//     TweenMax.staggerFrom(".items-animate-js", 0.5, {
+//         opacity: 0,
+//         y: 20,
+//         ease: Power3.easeInOut
+//     }, 0.08)
+// )
+
+// const controllerJsProjects = new ScrollMagic.Controller();
+// const sceneJsProjects = new ScrollMagic.Scene({
+//     triggerElement: "#js",
+//     triggerHook: 0.3,
+// })
+//     .setTween(jsProjects)
+//     .addTo(controllerJsProjects);
+
+
+// const jsProjects = new TimelineLite();
+// jsProjects.add(
+//     TweenMax.staggerFrom(".items-m", 0.5, {
+//         opacity: 0,
+//         y: 20,
+//         ease: Power3.easeInOut
+//     }, 0.08)
+// )
+// const controllerJsProjects = new ScrollMagic.Controller();
+// const sceneJsProjects = new ScrollMagic.Scene({
+//     triggerElement: "#js",
+//     triggerHook: 0.3,
+// })
+//     .setTween(jsProjects)
+//     .addTo(controllerJsProjects);
+
+
+
+// ========= Certificates Animation ===================================================================================================
+
+const certificates = new TimelineLite();
+certificates.add(
+    TweenMax.staggerFrom(".items-l", 1, {
+        opacity: 0,
+        y: 20,
+        ease: Power3.easeInOut
+    }, 0.08)
+)
+const controllerCertificates = new ScrollMagic.Controller();
+const sceneCertificatess = new ScrollMagic.Scene({
+    triggerElement: "#certificate",
+    triggerHook: 0.6,
+})
+    .setTween(certificates)
+    .addTo(controllerCertificates);
