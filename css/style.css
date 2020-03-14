@@ -232,6 +232,7 @@ color: var(--accent-color);
 .contact{
 width: 40%;
 margin: 200px auto;
+display: block;
 }
 .contact p{
 font-size: 2.5vw;
@@ -288,6 +289,9 @@ display: flex;
 flex-wrap: wrap;
 justify-content: flex-end;
 }
+.items-wrap a{
+background-size: 100% 100%;
+}
 .items-s{
 width: 21.5vw;
 height: 7.5vw;
@@ -311,6 +315,9 @@ transform: scale(1.1);
 }
 .items-m-img{
 margin: auto;
+}
+#dji-img{
+width: 30%;
 }
 .items-l{
 width: 26vw;
@@ -533,11 +540,13 @@ height: 35vh;
 .about-center {
 width: 90%;
 height: 230px;
+background-color: #343334;
+border-radius: 10px;
 }
 .about-headline {
 font-size: 2vw;
 line-height: 20px;
-color: var(--dark-section-color);
+color: var(--accent-color);
 }
 .about-center{
 top: 30%;
@@ -565,7 +574,7 @@ top: 45%;
 left: 0;
 right: 0;
 margin: auto;
-color: var(--dark-section-color);
+color: var(--accent-color);
 font-size: 4.5vw;
 }
 .btn{
@@ -610,5 +619,98 @@ margin: 0 0 4vw 0;
 }
 .section-headline, .section-number {
     font-size: 5vw;
+}
+.experience-wrap{
+margin: 30px auto 40px;
+}
+.experience-block-bottom{
+padding: 0 0 0 20px;
+}
+.experience-block-border{
+padding: 0 20px 0 0;
+}
+.experience-description{
+margin-left: 0;
+font-size: 3vw;
+}
+}
+@media only screen and (max-width: 425px){
+.items-m-img{
+width: 80%;
+}
+#about {
+    height: 80vh;
+}
+.about-center {
+height: 300px;
+}
+.name-inside {
+top: 35%;
+font-size: 7vw;
+}
+.about-headline {
+font-size: 3.5vw;
+}
+.btn {
+width: 50vw;
+height: 15vw;
+line-height: 13.5vw;
+font-size: 5vw;
+bottom: -160px;
+}
+.social-icons {
+top: 62%;
+}
+.avatar-img{
+top: -35%;
+}
+.section-headline, .section-number {
+    font-size: 7vw;
+}
+.items-s {
+    width: 100%;
+    height: 20vw;
+    margin: 0 0 6vw 0;
+}
+.tech-headline {
+    font-size: 6vw;
+    margin: 3.2vw 0 0 4.5vw;
+}
+.tech-percent {
+    right: 4.5vw;
+    font-size: 4vw;
+}
+.tech-progressBar {
+    margin: 2vw auto;
+}
+.experience-headline {
+    font-size: 5vw;
+}
+.experience-date {
+    font-size: 3.7vw;
+}
+.experience-description {
+    font-size: 4vw;
+}
+.contact {
+    width: 90%;
+}
+.items-m {
+    width: 43vw;
+    height: 50vw;
+    margin: 0 0 5vw 0;
+}
+.items-l {
+    width: 80vw;
+    height: 63vw;
+    margin: auto;
+    margin-bottom: 4vw;
+}
+.contact input{
+height: 40px;
+font-size: 20px;
+}
+.contact p{
+font-size: 4.5vw;
 }
 }

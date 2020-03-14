@@ -66,42 +66,10 @@
                     </div>
                 </div>
                 <div class="items-s">
-                    <p class="tech-headline">jQuery</p>
-                    <p class="tech-headline tech-percent">15%</p>
-                    <div class="tech-progressBar">
-                        <div class="progressBar-filling" id="progressBar-filling-2"></div>
-                    </div>
-
-                </div>
-                <div class="items-s">
-                    <p class="tech-headline">Sass</p>
-                    <p class="tech-headline tech-percent">50%</p>
-                    <div class="tech-progressBar">
-                        <div class="progressBar-filling" id="progressBar-filling-3"></div>
-                    </div>
-
-                </div>
-                <div class="items-s">
                     <p class="tech-headline">Css</p>
                     <p class="tech-headline tech-percent">85%</p>
                     <div class="tech-progressBar">
                         <div class="progressBar-filling" id="progressBar-filling-4"></div>
-                    </div>
-
-                </div>
-                <div class="items-s">
-                    <p class="tech-headline">React</p>
-                    <p class="tech-headline tech-percent">30%</p>
-                    <div class="tech-progressBar">
-                        <div class="progressBar-filling" id="progressBar-filling-5"></div>
-                    </div>
-
-                </div>
-                <div class="items-s">
-                    <p class="tech-headline">Ps/Figma</p>
-                    <p class="tech-headline tech-percent">80%</p>
-                    <div class="tech-progressBar">
-                        <div class="progressBar-filling" id="progressBar-filling-6"></div>
                     </div>
 
                 </div>
@@ -114,10 +82,42 @@
 
                 </div>
                 <div class="items-s">
+                    <p class="tech-headline">jQuery</p>
+                    <p class="tech-headline tech-percent">15%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-2"></div>
+                    </div>
+
+                </div>
+                <div class="items-s">
+                    <p class="tech-headline">React</p>
+                    <p class="tech-headline tech-percent">30%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-5"></div>
+                    </div>
+
+                </div>
+                <div class="items-s">
                     <p class="tech-headline">Node.js</p>
                     <p class="tech-headline tech-percent">10%</p>
                     <div class="tech-progressBar">
                         <div class="progressBar-filling" id="progressBar-filling-8"></div>
+                    </div>
+
+                </div>
+                <div class="items-s">
+                    <p class="tech-headline">Sass</p>
+                    <p class="tech-headline tech-percent">50%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-3"></div>
+                    </div>
+
+                </div>
+                <div class="items-s">
+                    <p class="tech-headline">Ps/Figma</p>
+                    <p class="tech-headline tech-percent">80%</p>
+                    <div class="tech-progressBar">
+                        <div class="progressBar-filling" id="progressBar-filling-6"></div>
                     </div>
 
                 </div>
@@ -150,7 +150,7 @@
                 </div>
                 <div></div>
                 <div class="experience-block-border"></div>
-                <div class="experience-block-bottom">
+                <div class="experience-block-bottom experience-block-animation">
                     <p class="experience-headline experience-headline-right">Продавец-консультант в Good Wine</p>
                     <p class="experience-date">20.07.2017 - 01.06.2019</p>
                     <p class="experience-description experience-description-right">Занимался консультацией людей по
@@ -178,7 +178,7 @@
                 </div>
                 <div></div>
                 <div class="experience-block-border"></div>
-                <div class="experience-block-bottom" id="experience-block-bottom">
+                <div class="experience-block-bottom experience-block-animation" id="experience-block-bottom">
                     <p class="experience-headline experience-headline-right">Курсы web - разработки ITEA (JS Base/JS
                         Advanced)
                     </p>
@@ -209,7 +209,7 @@
                     <img src="img/projects/html-css/youfruit/YouFruit.png" alt="youfruit" class="items-m-img">
                 </a>
                 <a href="https://dji.netlify.com/" target="_blank" class="items-s items-m" id="dji">
-                    <img src="img/projects/html-css/dji/DJI.png" alt="dji" class="items-m-img">
+                    <img src="img/projects/html-css/dji/DJI.png" alt="dji" class="items-m-img" id="dji-img">
                 </a>
                 <a href="#" target="_blank" class="items-s items-m" id="">
                     <img src="img/projects/soon.png" alt="" class="items-m-img">
@@ -363,15 +363,15 @@
     <section id="contact">
         <div class="container">
             <p class="section-headline">Связаться со мной</p>
-            <div class="contact">
+            <form action="php/send.php" method="post" class="contact">
                 <p>Имя</p>
-                <input type="name">
+                <input type="name" name="name" required>
                 <p>E-mail</p>
-                <input type="email">
+                <input type="email" name="email" required>
                 <p>Сообщение:</p>
-                <input type="text">
-                <button class="btn contact-btn">Отправить сообщение</button>
-            </div>
+                <input type="text" name="message">
+                <button class="btn contact-btn" type="submit">Отправить сообщение</button>
+            </form>
             <p class="section-number">09</p>
         </div>
 
@@ -390,9 +390,26 @@
     </footer>
     <div class="cursor"></div>
     <div class="cursor-follower"></div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+        integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"
+    integrity="sha256-VfpswwlYKouVmlpnJW0MszMzLm9lH2yfB6ty3d1WsB4=" crossorigin="anonymous"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"
+        integrity="sha256-5HW1hilN77unDg9wwY2mmXL1G8/hBMrYOgiB+BqsxNg=" crossorigin="anonymous"></script>
+
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
     <script src="js/script.js"></script>
 
 </body>
