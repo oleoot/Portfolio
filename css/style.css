@@ -69,10 +69,10 @@ justify-content: center;
 }
 .nav a{
 padding: 20px;
+overflow-y: hidden;
 }
 .nav a img{
 width: 50px;
-/* height: 60px;    */
 }
 .btn{
 width: 16vw;
@@ -354,11 +354,21 @@ span{
 color: #ADADAD;
 }
 
-
 /* ================= MEDIA ====================================================================================== */
 @media only screen and (max-width: 1440px){
+/* About section     */
+.nav {
+width: 100px;
+}
+.nav a img{
+width: 40px;
+height: 40px;
+}
 .about-center{
 height: 380px;
+}
+.about-headline{
+font-size: 1.4vw;
 }
 .avatar-img{
 width: 350px;
@@ -370,22 +380,15 @@ height: 40px;
 .btn {
 bottom: -150px;
 }
-.nav {
-width: 100px;
-}
+/* Experience section     */
 #experience{
 background-size: calc(100% - 100px) 100%;
 }
+/* Education section     */
 #education{
 background-size: calc(100% - 100px) 100%;
 }
-.nav a img{
-width: 60px;
-height: 60px;
-}
-.about-headline{
-font-size: 1.4vw;
-}
+/* Utility classes */
 .items-m{
 width: 26vw;
 height: 30vw;
@@ -408,12 +411,11 @@ height: 30px;
 }
 }
 @media only screen and (max-width: 1024px){
+/* Custom cursor     */
 .cursor, .cursor-follower{
 display: none;
 }
-.items-m:hover{
-transform: scale(1);
-}
+/* About section */
 #about{
 height: 85vh;
 }
@@ -424,21 +426,16 @@ height: 42.5vh;
 top: 40%;
 transform: translateY(-40%);
 }
-section:not(:first-child) {
-padding: 50px 0;
-}
-.section-headline {
-font-size: 4.5vw;
-}
-.section-headline, .section-number {
-font-size: 4.5vw;
-}
-
-.nav{
-display: none;
-}
 .about-center{
 width: 75%;
+height: 260px;
+}
+.avatar-img{
+width: 250px;
+}
+.about-headline {
+font-size: 1.6vw;
+line-height: 30px;
 }
 .social-icons{
 right: 30px;
@@ -448,34 +445,55 @@ width: 30px;
 height: 30px;
 margin: 15px 0;
 }
-.avatar-img{
-width: 250px;
-}
-.about-center{
-height: 260px;
-}
-.about-headline {
-font-size: 1.6vw;
-line-height: 30px;
-}
 .btn {
 bottom: -100px;
 }
-
-.items-s{
-width: 28vw;
-height: 11.2vw;
-margin: 0 0 6vw 0;
+/* New nav */
+.nav{
+padding-top: 80px;
+transform: translateX(-100%);
+transition: transform 0.5s ease-in;
 }
-.items-l{
-width: 42vw;
-height: 32.5vw;
-margin: auto;
-margin-bottom: 2.5vw;
+.nav a{
+padding: 15px 0;
+overflow-y: hidden;
 }
-.items-wrap {
+.nav-active{
+transform: translateX(0);
+}
+.nav-burger{
+position: fixed;
+z-index: 5;
+top: 15px;
+left: 25px;
+width: 50px;
+height: 50px;
+display: flex;
+flex-direction: column;
 justify-content: space-between;
+padding: 15.5px 12.5px;
+align-items: center;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50%;
+background: var(--dark-color);
 }
+.toggle .burger-line1{
+transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .burger-line2{
+opacity: 0;
+}
+.toggle .burger-line3{
+transform: rotate(45deg) translate(-5px,-6px);
+}
+.burger-line{
+width: 25px;
+height: 3px;
+background-color: var(--accent-color);
+transition: all 0.3s ease;
+border-radius: 10px;
+}
+/* Tech section */
 .tech-headline{
 font-size: 3vw;
 margin: 2.2vw 0 0 1.3vw;
@@ -487,19 +505,12 @@ font-size: 2vw;
 height: 10px;
 margin: 1.5vw auto;
 }
-
 .progressBar-filling {
 height: 4px;
 margin: 2px 0 0 2px;
 }
-
-
-
-
+/* Experience section */
 #experience {
-background-size: 100% 100%;
-}
-#education {
 background-size: 100% 100%;
 }
 .experience-wrap{
@@ -518,38 +529,62 @@ margin-left: 10%;
 .experience-description-right{
 margin-left: 0;
 }
-
-
-
-
-
+/* Education */
+#education {
+background-size: 100% 100%;
+}
+/* Contact section */
+.contact {
+width: 60%;
+margin: 100px auto 50px;
+}
+/* Utility classes */
+section:not(:first-child) {
+padding: 50px 0;
+}
+.section-headline {
+font-size: 4.5vw;
+}
+.section-headline, .section-number {
+font-size: 4.5vw;
+}
+.items-wrap {
+justify-content: space-between;
+}
+.items-s{
+width: 28vw;
+height: 11.2vw;
+margin: 0 0 6vw 0;
+}
 .items-m{
 width: 43vw;
 height: 50vw;
 margin: 0 0 5vw 0;
 }
-
-.contact {
-width: 60%;
-margin: 100px auto 50px;
+.items-m-img{
+width: 80%;
 }
-
-
-
+.items-m:hover{
+transform: scale(1);
+}
+.items-l{
+width: 42vw;
+height: 32.5vw;
+margin: auto;
+margin-bottom: 2.5vw;
+}
 }
 @media only screen and (max-width: 768px){
 .btn, .contact-btn{
-    font-size: 2vw;
-    line-height: 4.3vw;
+font-size: 2vw;
+line-height: 4.3vw;
 }
 .contact-btn{
 width:28vw ;
 }
 }
 @media only screen and (max-width: 640px){
-.avatar-img{
-width: 200px;
-}
+/* About section */
 #about{
 height: 70vh;
 }
@@ -561,26 +596,16 @@ width: 90%;
 height: 230px;
 background-color: #343334;
 border-radius: 10px;
+top: 30%;
+transform: translateY(-30%);
+}
+.avatar-img{
+width: 200px;
 }
 .about-headline {
 font-size: 2vw;
 line-height: 20px;
 color: var(--accent-color);
-}
-.about-center{
-top: 30%;
-transform: translateY(-30%);
-}
-.social-icons{
-flex-direction: row;
-justify-content: center;
-top: 52%;
-left: 0;
-right: 0;
-margin: auto;
-}
-.social-icons img{
-margin: 0 10px;
 }
 .name {
 display: none;
@@ -596,12 +621,13 @@ margin: auto;
 color: var(--accent-color);
 font-size: 4.5vw;
 }
-.btn{
-width: 40vw;
-height: 6vw;
-line-height: 5.3vw;
-font-size: 3vw;
-bottom: -130px;
+.social-icons{
+flex-direction: row;
+justify-content: center;
+top: 52%;
+left: 0;
+right: 0;
+margin: auto;
 }
 .social-icons-pc{
 display: none;
@@ -609,36 +635,27 @@ display: none;
 .social-icons-phone{
 display: block;
 }
-
-
-.items-s {
-width: 43vw;
-height: 17.2vw;
-margin: 0 0 4vw 0;
+.social-icons img{
+margin: 0 10px;
 }
-.items-m {
-    width: 43vw;
-    height: 50vw;
-    margin: 0 0 5vw 0;
+.btn{
+width: 40vw;
+height: 6vw;
+line-height: 5.3vw;
+font-size: 3vw;
+bottom: -130px;
 }
-.items-l {
-    width: 80vw;
-    height: 63vw;
-    margin: auto;
-    margin-bottom: 4vw;
-}
+/* Tech section */
 .tech-headline {
-    font-size: 4.5vw;
-    margin: 3.2vw 0 0 2vw;
+font-size: 4.5vw;
+margin: 3.2vw 0 0 2vw;
 }
 .tech-percent {
-    right: 2.5vw;
-    top: 2.1vw;
-    font-size: 2.5vw;
+right: 2.5vw;
+top: 2.1vw;
+font-size: 2.5vw;
 }
-.section-headline, .section-number {
-    font-size: 5vw;
-}
+/* Experience section */
 .experience-wrap{
 margin: 30px auto 40px;
 }
@@ -652,78 +669,81 @@ padding: 0 20px 0 0;
 margin-left: 0;
 font-size: 3vw;
 }
+/* Utility classes */
+.items-s {
+width: 43vw;
+height: 17.2vw;
+margin: 0 0 4vw 0;
+}
+.items-l {
+width: 80vw;
+height: 63vw;
+margin: auto;
+margin-bottom: 4vw;
+}
+.section-headline, .section-number {
+font-size: 5vw;
+}
 }
 @media only screen and (max-width: 425px){
-.items-m-img{
-width: 80%;
-}
+/* About section */
 #about {
-    height: 80vh;
+height: 100vh;
+}
+.about-top {
+height: 50vh;
 }
 .about-center {
+top: 50%;
+transform: translateY(-50%);
 height: 300px;
+}
+.about-headline {
+font-size: 3.5vw;
+}
+.avatar-img{
+top: -35%;
 }
 .name-inside {
 top: 35%;
 font-size: 7vw;
 }
-.about-headline {
-font-size: 3.5vw;
+.social-icons {
+top: 72vh;
 }
 .btn {
 width: 50vw;
 height: 15vw;
 line-height: 13.5vw;
 font-size: 5vw;
-bottom: -160px;
+bottom: -20vh;;
 }
-.social-icons {
-top: 62%;
-}
-.avatar-img{
-top: -35%;
-}
-.section-headline, .section-number {
-    font-size: 7vw;
-}
-.items-s {
-    width: 100%;
-    height: 20vw;
-    margin: 0 0 6vw 0;
-}
+
+/* Tech section */
 .tech-headline {
-    font-size: 6vw;
-    margin: 3.2vw 0 0 4.5vw;
+font-size: 6vw;
+margin: 3.2vw 0 0 4.5vw;
 }
 .tech-percent {
-    right: 4.5vw;
-    font-size: 4vw;
+right: 4.5vw;
+font-size: 4vw;
 }
 .tech-progressBar {
-    margin: 2vw auto;
+margin: 2vw auto;
 }
+/* Experience section */
 .experience-headline {
-    font-size: 5vw;
+font-size: 5vw;
 }
 .experience-date {
-    font-size: 3.7vw;
+font-size: 3.7vw;
 }
 .experience-description {
-    font-size: 4vw;
+font-size: 4vw;
 }
+/* Contact section */
 .contact {
-    width: 90%;
-}
-.items-m {
-    width: 43vw;
-    height: 50vw;
-    margin: 0 0 5vw 0;
-}
-.items-l {
-    width: 80vw;
-    height: 63vw;
-    margin: auto;
-    margin-bottom: 4vw;
+width: 90%;
 }
 .contact input{
 height: 40px;
@@ -735,4 +755,34 @@ font-size: 4.5vw;
 .contact-btn{
 font-size: 3.5vw;
 }
+/* Utility classes */
+.section-headline, .section-number {
+font-size: 7vw;
 }
+.items-s {
+width: 100%;
+height: 20vw;
+margin: 0 0 6vw 0;
+}
+.items-m {
+width: 43vw;
+height: 50vw;
+margin: 0 0 5vw 0;
+}
+.items-l {
+width: 80vw;
+height: 63vw;
+margin: auto;
+margin-bottom: 4vw;
+}
+}
+@media only screen and (max-width: 375px){
+.social-icons{
+top: 74vh;
+}
+}
+@media only screen and (max-width: 320px){
+    .about-center{
+    width: 95%;
+    }
+    }
