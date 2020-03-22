@@ -47,7 +47,7 @@ $(document).ready(function () {
         event.preventDefault();
         let id = $(this).attr('href'),
             top = $(id).offset().top;
-        $('body,html').animate({ scrollTop: top }, 1500);
+        $('body,html').animate({ scrollTop: top }, 800);
     });
 });
 // ========= Main page Animation =======================================================================================================

@@ -1,32 +1,43 @@
 /* HTML & CSS Projects */
-#netflix{
+    #boostfolia{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/boostfolia/boostfolia-bg.png);
+    background-size: cover;
+    }
+    #silon{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/silon/silon-bg.png);
+    background-size: cover;
+    }
+    #youfruit{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/youfruit/youfruit-bg.png) center/100% 100%;
+    }
+    #snow{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/snow/snow-bg.png) center/100% 100%;
+    }
+    #netflix{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/netflix/netflix-bckg.png);
     background-size: cover;
     }
     #myTunes{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/myTunes/showcase.png) center/100% 100%;
     }
-    #youfruit{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/youfruit/youfruit-bg.png) center/100% 100%;
-    }
     #dji{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/dji/dji-bg.png) center/100% 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/dji/dji-bg.png) center/100% 100%;
     }
     /* JavaScript Projects */
     #weather{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/weather/weather-bg.png) center/100% 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/weather/weather-bg.png) center/100% 100%;
     }
     #showroom{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/showroom/showroom-bg.png) center/100% 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/showroom/showroom-bg.png) center/100% 100%;
     }
     #airpods{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/airpods/airpods-bg.png) center/100% 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/airpods/airpods-bg.png) center/100% 100%;
     }
     #drums{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/drums/drums-bg.png) center/100% 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/drums/drums-bg.png) center/100% 100%;
     }
     #text-to-speech{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/text-to-speech/text-to-speech-bg.png) center/100% 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/text-to-speech/text-to-speech-bg.png) center/100% 100%;
     }
     /* React Projects */
     #expense-tracker{
