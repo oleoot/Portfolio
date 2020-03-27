@@ -20,25 +20,38 @@
     #myTunes{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/myTunes/showcase.png) center/100% 100%;
     }
+    #merkury{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/merkury/merkury-bg.png) center/100% 100%;
+    }
     #dji{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/dji/dji-bg.png) center/100% 100%;
     }
     /* JavaScript Projects */
+     #chat-room{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/chat-room/chat-room-bg.png) center/100% 100%;
+    }
+    #password-generator{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/password-generator/password-generator-bg.png) center/100% 100%;
+    }
     #weather{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/weather/weather-bg.png) center/100% 100%;
-    }
-    #showroom{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/showroom/showroom-bg.png) center/100% 100%;
-    }
-    #airpods{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/airpods/airpods-bg.png) center/100% 100%;
     }
     #drums{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/drums/drums-bg.png) center/100% 100%;
     }
+    #booklist{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/books-list/books-list-bg.png) center/100% 100%;
+    }
+    #filtered-contacts{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/filtered-contacts/filtered-contacts-bg.png) center/100% 100%;
+    }
+    #airpods{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/airpods/airpods-bg.png) center/100% 100%;
+    }
     #text-to-speech{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/text-to-speech/text-to-speech-bg.png) center/100% 100%;
     }
+    filtered-contacts
     /* React Projects */
     #expense-tracker{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/expense-tracker/expense-tracker-bg.png) center/100% 100%;
@@ -65,4 +78,7 @@
     }
 #draggable-canvas{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/draggable-canvas/draggable-canvas-bg.png) center/100% 100%;
+}
+#content-slider{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/slider/content-slider-bg.png) center/100% 100%;
 }

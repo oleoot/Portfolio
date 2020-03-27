@@ -325,6 +325,7 @@ transform: scale(1.1);
 }
 .items-m-img{
 margin: auto;
+width: 80%;
 }
 #dji-img{
 width: 30%;
@@ -392,10 +393,10 @@ background-size: calc(100% - 100px) 100%;
 background-size: calc(100% - 100px) 100%;
 }
 /* Utility classes */
-.items-m{
+/* .items-m{
 width: 26vw;
 height: 30vw;
-}
+} */
 .items-l{
 width: 40vw;
 height: 32.5vw;
@@ -564,9 +565,9 @@ width: 43vw;
 height: 50vw;
 margin: 0 0 5vw 0;
 }
-.items-m-img{
+/* .items-m-img{
 width: 80%;
-}
+} */
 .items-m:hover{
 transform: scale(1);
 }
