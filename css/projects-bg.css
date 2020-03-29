@@ -13,18 +13,18 @@
     #snow{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/snow/snow-bg.png) center/100% 100%;
     }
-    #netflix{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/netflix/netflix-bckg.png);
-    background-size: cover;
+    #merkury{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/merkury/merkury-bg.png) center/100% 100%;
     }
     #myTunes{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/myTunes/showcase.png) center/100% 100%;
     }
-    #merkury{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/merkury/merkury-bg.png) center/100% 100%;
+     #data-warehouse{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/data-warehouse/data-warehouse-bg.png) center/100% 100%;
     }
-    #dji{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/dji/dji-bg.png) center/100% 100%;
+    #netflix{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/netflix/netflix-bckg.png);
+    background-size: cover;
     }
     /* JavaScript Projects */
      #chat-room{
@@ -76,9 +76,12 @@
     #typewritting{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/type-writting/typewritting-bg.png) center/100% 100%;
     }
-#draggable-canvas{
+    #draggable-canvas{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/draggable-canvas/draggable-canvas-bg.png) center/100% 100%;
-}
-#content-slider{
+    }
+    #content-slider{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/slider/content-slider-bg.png) center/100% 100%;
-}
+    }
+    #dji{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/dji/dji-bg.png) center/100% 100%;
+    }
