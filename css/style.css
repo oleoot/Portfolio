@@ -704,6 +704,7 @@ height: 300px;
 }
 .about-headline {
 font-size: 3.5vw;
+bottom: 10px;
 }
 .avatar-img{
 top: -35%;
@@ -716,11 +717,11 @@ font-size: 7vw;
 top: 72vh;
 }
 .btn {
-width: 50vw;
-height: 15vw;
-line-height: 13.5vw;
-font-size: 5vw;
-bottom: -20vh;;
+width: 180px;
+height: 60px;
+line-height: 60px;
+font-size: 20px;
+bottom: -20vh;
 }
 
 /* Tech section */
