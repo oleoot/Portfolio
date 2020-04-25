@@ -286,11 +286,16 @@ box-shadow: 0 20px 60px rgba(0,0,0,0.5);
 .items-m{
 height: 21vw;
 padding: 0;
-display: flex;
 transition: all 0.5s cubic-bezier(0.25, 1, 0.3,1);
 border-radius: 10px;
 box-shadow: 0 20px 60px rgba(0,0,0,0.5);
 background: var(--items-bg);
+text-decoration: none;
+}
+.items-m p{
+text-transform: uppercase;
+font-weight: 600;
+text-align: center;
 }
 .items-m:hover{
 transform: scale(1.1);
