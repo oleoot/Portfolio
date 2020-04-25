@@ -4,10 +4,10 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Montserrat', sans-serif;
 }
- body, a{
- cursor: none;
- overflow-x: hidden;
- }
+body, a{
+cursor: none;
+overflow-x: hidden;
+}
 /* ============== About Section========================================================================================= */
 #about{
 height: 100vh;
@@ -119,6 +119,10 @@ margin: 30px 0;
 display: none;
 }
 /* ============== Technologies Section========================================================================================= */
+#items-wrap-tech{
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 40px;
+}
 .tech-headline{
 font-size: 2.5vw;
 margin: 1vw 0 0 1vw;
@@ -290,30 +294,25 @@ color: var(--accent-color);
 font-weight: 300;
 }
 .items-wrap{
-width: 100%;
-margin-top: 60px;
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-end;
+margin: 60px 0 60px 150px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 40px;
 }
 .items-wrap a{
 background-size: 100% 100%;
 }
 .items-s{
-width: 21.5vw;
 height: 7.5vw;
 display: block;
 background: #343334;
-margin: 0 0 6vw 6vw;
 border-radius: 10px;
 box-shadow: 0 20px 60px rgba(0,0,0,0.5);
 position: relative;
 }
 .items-m{
-width: 18.5vw;
 height: 21vw;
 padding: 0;
-margin: 0 0 2.5vw 2.5vw;
 display: flex;
 transition: all 0.5s cubic-bezier(0.25, 1, 0.3,1);
 border-radius: 10px;
@@ -334,17 +333,19 @@ width: 30%;
 width: 50%;
 }
 .items-l{
-width: 26vw;
 height: 21vw;
-margin: 0 0 4vw 2.5vw;
 display: flex;
 padding: 0;
 background: #343334;
 border-radius: 10px;
 box-shadow: 0 20px 60px rgba(0,0,0,0.5);
 }
+#items-wrap-certificate{
+grid-template-columns: 1fr 1fr 1fr;
+}
 .items-l img{
 width: 90%;
+height: 87%;
 margin: auto;
 }
 .section-number{
@@ -393,14 +394,10 @@ background-size: calc(100% - 100px) 100%;
 background-size: calc(100% - 100px) 100%;
 }
 /* Utility classes */
-/* .items-m{
-width: 26vw;
-height: 30vw;
-} */
+.items-wrap{
+grid-gap: 20px;
+}
 .items-l{
-width: 40vw;
-height: 32.5vw;
-margin: 0 0 2.5vw 2.5vw;
 display: flex;
 padding: 0;
 }
@@ -412,6 +409,9 @@ width: 25vw;
 .footer-icons a img{
 width: 30px;
 height: 30px;
+}
+.items-wrap{
+margin: 60px 0 60px 100px;
 }
 }
 @media only screen and (max-width: 1024px){
@@ -452,51 +452,7 @@ margin: 15px 0;
 .btn {
 bottom: -100px;
 }
-/* New nav */
-.nav{
-padding-top: 80px;
-transform: translateX(-100%);
-transition: transform 0.5s ease-in;
-}
-.nav a{
-padding: 15px 0;
-overflow-y: hidden;
-}
-.nav-active{
-transform: translateX(0);
-}
-.nav-burger{
-position: fixed;
-z-index: 5;
-top: 15px;
-left: 25px;
-width: 50px;
-height: 50px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-padding: 15.5px 12.5px;
-align-items: center;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 50%;
-background: var(--dark-color);
-}
-.toggle .burger-line1{
-transform: rotate(-45deg) translate(-5px,6px);
-}
-.toggle .burger-line2{
-opacity: 0;
-}
-.toggle .burger-line3{
-transform: rotate(45deg) translate(-5px,-6px);
-}
-.burger-line{
-width: 25px;
-height: 3px;
-background-color: var(--accent-color);
-transition: all 0.3s ease;
-border-radius: 10px;
-}
+
 /* Tech section */
 .tech-headline{
 font-size: 3vw;
@@ -553,29 +509,25 @@ font-size: 4.5vw;
 font-size: 4.5vw;
 }
 .items-wrap {
-justify-content: space-between;
+grid-template-columns: 1fr 1fr 1fr;
+}
+#items-wrap-certificate{
+grid-template-columns: 1fr 1fr;
+}
+#items-wrap-tech{
+grid-gap: 30px;
 }
 .items-s{
-width: 28vw;
-height: 11.2vw;
-margin: 0 0 6vw 0;
+height: 10vw;
 }
 .items-m{
-width: 43vw;
-height: 50vw;
-margin: 0 0 5vw 0;
+height: 29vw;
 }
-/* .items-m-img{
-width: 80%;
-} */
 .items-m:hover{
 transform: scale(1);
 }
 .items-l{
-width: 42vw;
-height: 32.5vw;
-margin: auto;
-margin-bottom: 2.5vw;
+height: 31vw;
 }
 }
 @media only screen and (max-width: 768px){
@@ -586,12 +538,56 @@ line-height: 4.3vw;
 .contact-btn{
 width:28vw ;
 }
+.items-wrap {
+margin: 60px 0 60px 0;
+}
+/* New nav */
+.nav{
+padding-top: 80px;
+transform: translateX(-100%);
+transition: transform 0.5s ease-in;
+}
+.nav a{
+padding: 15px 0;
+overflow-y: hidden;
+}
+.nav-active{
+transform: translateX(0);
+}
+.nav-burger{
+position: fixed;
+z-index: 5;
+top: 15px;
+left: 25px;
+width: 50px;
+height: 50px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 15.5px 12.5px;
+align-items: center;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50%;
+background: var(--dark-color);
+}
+.toggle .burger-line1{
+transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .burger-line2{
+opacity: 0;
+}
+.toggle .burger-line3{
+transform: rotate(45deg) translate(-5px,-6px);
+}
+.burger-line{
+width: 25px;
+height: 3px;
+background-color: var(--accent-color);
+transition: all 0.3s ease;
+border-radius: 10px;
+}
 }
 @media only screen and (max-width: 640px){
-/* About section */
-#about{
-height: 70vh;
-}
 .about-top {
 height: 35vh;
 }
@@ -674,16 +670,23 @@ margin-left: 0;
 font-size: 3vw;
 }
 /* Utility classes */
-.items-s {
-width: 43vw;
-height: 17.2vw;
-margin: 0 0 4vw 0;
+.items-wrap{
+grid-template-columns: 1fr 1fr;
+}
+#items-wrap-tech{
+grid-template-columns: 1fr 1fr;
+}
+#items-wrap-certificate{
+grid-template-columns: 1fr;
+}
+.items-m {
+    height: 48vw;
 }
 .items-l {
-width: 80vw;
-height: 63vw;
-margin: auto;
-margin-bottom: 4vw;
+    height: 65vw;
+}
+.items-s{
+height: 15vw;
 }
 .section-headline, .section-number {
 font-size: 5vw;
@@ -761,24 +764,15 @@ font-size: 4.5vw;
 font-size: 3.5vw;
 }
 /* Utility classes */
+#items-wrap-tech{
+grid-template-columns: 1fr;
+grid-gap: 20px;
+}
 .section-headline, .section-number {
 font-size: 7vw;
 }
-.items-s {
-width: 100%;
+.items-s{
 height: 20vw;
-margin: 0 0 6vw 0;
-}
-.items-m {
-width: 43vw;
-height: 50vw;
-margin: 0 0 5vw 0;
-}
-.items-l {
-width: 80vw;
-height: 63vw;
-margin: auto;
-margin-bottom: 4vw;
 }
 }
 @media only screen and (max-width: 375px){
@@ -789,5 +783,11 @@ top: 74vh;
 @media only screen and (max-width: 320px){
     .about-center{
     width: 95%;
+    }
+    .items-wrap{
+    grid-template-columns: 1fr;
+    }
+    .items-m{
+    height: 100vw;
     }
     }

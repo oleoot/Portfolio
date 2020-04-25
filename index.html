@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <section id="about">
+    <header id="about">
 
         <nav class="nav">
             <a href="#about"><img src="img/icons/home.png" alt="about"></a>
@@ -42,7 +42,7 @@
                 создании веб-приложений с использованием HTML, CSS, JavaScript.
                 Уверенные навыки работы с React, jQuery. Практический опыт владения Ps, Figma, GIT.
             </p>
-            <a href="#" class="btn">Скачать CV</a>
+            <a href="cv-file/Kuts_Oleg_CV.pdf" download class="btn">Скачать CV</a>
         </div>
 
         <div class="social-icons">
@@ -59,13 +59,13 @@
             <a href="mailto:oleg.kouts@gmail.com"><img src="img/icons/mail.svg" alt="mail"></a>
         </div>
 
-    </section>
+    </header>
 
     <section id="tech">
         <div class="container">
             <p class="section-headline">Владение технологиями</p>
 
-            <div class="items-wrap">
+            <div class="items-wrap" id="items-wrap-tech">
                 <div class="items-s">
 
                     <p class="tech-headline">Html</p>
@@ -338,7 +338,7 @@
     <section id="certificate">
         <div class="container">
             <p class="section-headline">Дипломы и сертификаты</p>
-            <div class="items-wrap">
+            <div class="items-wrap" id="items-wrap-certificate">
                 <div class="items-l">
                     <img src="img/certificates/html.png" alt="html">
                 </div>
@@ -351,23 +351,6 @@
             </div>
             <p class="section-number">08</p>
         </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <p class="section-headline">Связаться со мной</p>
-            <form action="telegram.php" method="post" class="contact">
-                <p>Имя</p>
-                <input type="text" name="name" required>
-                <p>E-mail</p>
-                <input type="email" name="email" required>
-                <p>Сообщение:</p>
-                <input type="text" name="message">
-                <button class="btn contact-btn" type="submit">Отправить сообщение</button>
-            </form>
-            <p class="section-number">09</p>
-        </div>
-
     </section>
 
     <footer id="footer">
