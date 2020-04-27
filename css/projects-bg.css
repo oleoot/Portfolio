@@ -7,8 +7,8 @@
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/silon/silon-bg.png);
     background-size: cover;
     }
-    #youfruit{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/youfruit/youfruit-bg.png) center/100% 100%;
+    #dance-tour{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/dance-tour/dance-tour-bg.png) center/100% 100%;
     }
     #snow{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/snow/snow-bg.png) center/100% 100%;
@@ -19,7 +19,10 @@
     #myTunes{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/myTunes/showcase.png) center/100% 100%;
     }
-     #data-warehouse{
+    #coffee-shop{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/coffee-shop/coffee-shop-bg.png) center/100% 100%;
+    }
+    #data-warehouse{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/data-warehouse/data-warehouse-bg.png) center/100% 100%;
     }
     #netflix{

@@ -51,43 +51,31 @@ $(document).ready(function () {
     });
 });
 // ========= Main page Animation =======================================================================================================
-// TweenMax.from(".about-top", 1.6, {
-//     opacity: 0,
-//     delay: 0.2,
-//     height: 0,
-//     ease: Expo.easeInOut
-// });
 TweenMax.from(".about-center", 1.6, {
     opacity: 0,
     delay: 0.2,
-    // width: 0,
     y: 50,
     ease: Expo.easeInOut
 });
 TweenMax.from(".avatar-img", 1.6, {
     opacity: 0,
     delay: 0.8,
-    // height: 0,
-    // y: 10,
     ease: Expo.easeInOut
 });
 TweenMax.from(".about-headline", 1.6, {
     opacity: 0,
     delay: 1.2,
-    // height: 0,
     ease: Expo.easeInOut
 });
 TweenMax.from(".btn", 1.6, {
     opacity: 0,
     delay: 1.5,
-    // height: 0,
     y: 50,
     ease: Expo.easeInOut
 });
 TweenMax.staggerFrom(".social-icons a img", 1, {
     delay: 1.8,
     opacity: 0,
-    // y: 10,
     ease: Power3.easeInOut
 }, 0.08);
 
@@ -98,15 +86,7 @@ const itemsS = new TimelineLite();
 const progress = new TimelineLite();
 const filling = new TimelineLite();
 
-
-
 itemsS.add(
-    // TweenMax.staggerFrom(".items-s", 1, {
-    //     delay: 0.2,
-    //     opacity: 0,
-    //     y: 20,
-    //     ease: Power3.easeInOut
-    // }, 0.08),
     TweenMax.from(".items-s", 1, {
         opacity: 0,
         delay: 0.2,
@@ -121,8 +101,6 @@ const sceneItems = new ScrollMagic.Scene({
 })
     .setTween(itemsS)
     .addTo(controllerItems);
-
-
 
 tween.add(
     TweenMax.from(".tech-headline", 1, {
@@ -174,25 +152,6 @@ const sceneFilling = new ScrollMagic.Scene({
 })
     .setTween(filling)
     .addTo(controllerFilling);
-
-
-
-// sHeadline.add(
-//     TweenMax.from(".section-headline ", 1, {
-//         opacity: 0,
-//         height: 0,
-//         y: 20,
-//         ease: Expo.easeInOut
-//     }),
-// )
-// const controllerHeadline = new ScrollMagic.Controller();
-// const sceneHeadline = new ScrollMagic.Scene({
-//     triggerElement: "#tech",
-//     triggerHook: 0.9,
-// })
-//     .setTween(sHeadline)
-//     .addTo(controllerHeadline);
-
 
 // ========= Experience Animation =======================================================================================================
 
@@ -298,61 +257,6 @@ const sceneEduBottomRight = new ScrollMagic.Scene({
 })
     .setTween(eduBottomRight)
     .addTo(controllerEduBottomRight);
-
-// ========= Projects Animation =======================================================================================================
-
-// const htmlProjects = new TimelineLite();
-// htmlProjects.add(
-//     TweenMax.staggerFrom(".items-m", 0.5, {
-//         opacity: 0,
-//         y: 20,
-//         ease: Power3.easeInOut
-//     }, 0.08)
-// )
-// const controllerHtmlProjects = new ScrollMagic.Controller();
-// const sceneHtmlProjects = new ScrollMagic.Scene({
-//     triggerElement: "#html",
-//     triggerHook: 0.3,
-// })
-//     .setTween(htmlProjects)
-//     .addTo(controllerHtmlProjects);
-
-// const jsProjects = new TimelineLite();
-// jsProjects.add(
-//     TweenMax.staggerFrom(".items-animate-js", 0.5, {
-//         opacity: 0,
-//         y: 20,
-//         ease: Power3.easeInOut
-//     }, 0.08)
-// )
-
-// const controllerJsProjects = new ScrollMagic.Controller();
-// const sceneJsProjects = new ScrollMagic.Scene({
-//     triggerElement: "#js",
-//     triggerHook: 0.3,
-// })
-//     .setTween(jsProjects)
-//     .addTo(controllerJsProjects);
-
-
-// const jsProjects = new TimelineLite();
-// jsProjects.add(
-//     TweenMax.staggerFrom(".items-m", 0.5, {
-//         opacity: 0,
-//         y: 20,
-//         ease: Power3.easeInOut
-//     }, 0.08)
-// )
-// const controllerJsProjects = new ScrollMagic.Controller();
-// const sceneJsProjects = new ScrollMagic.Scene({
-//     triggerElement: "#js",
-//     triggerHook: 0.3,
-// })
-//     .setTween(jsProjects)
-//     .addTo(controllerJsProjects);
-
-
-
 // ========= Certificates Animation ===================================================================================================
 
 const certificates = new TimelineLite();
