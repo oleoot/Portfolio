@@ -87,6 +87,9 @@ const progress = new TimelineLite();
 const filling = new TimelineLite();
 
 itemsS.add(
+    TweenMax.set(".items-s", {
+        height: 100,
+    }),
     TweenMax.from(".items-s", 1, {
         opacity: 0,
         delay: 0.2,
