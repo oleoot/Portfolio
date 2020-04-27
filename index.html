@@ -15,51 +15,58 @@
 </head>
 
 <body>
+
+    <nav class="nav flex-container-center align-center">
+        <a href="#about"><img src="img/icons/home.png" alt="about"></a>
+        <a href="#tech"><img src="img/icons/skill.png" alt="tech"></a>
+        <a href="#experience"><img src="img/icons/work.png" alt="work"></a>
+        <a href="#education"><img src="img/icons/book.png" alt="education"></a>
+        <a href="#html"><img src="img/icons/html.png" alt="html" id="html-img"></a>
+        <a href="#js"><img src="img/icons/js.png" alt="js" id="js-img"></a>
+        <a href="#react"><img src="img/icons/react.png" alt="react" id="react-img"></a>
+        <a href="#animation"><img src="img/icons/animation.png" alt="animation" id="animation-img"></a>
+        <a href="#certificate"><img src="img/icons/certificate.png" alt="animation"></a>
+    </nav>
+    <div class="nav-burger flex-container">
+        <div class="burger-line burger-line1"></div>
+        <div class="burger-line burger-line2"></div>
+        <div class="burger-line burger-line3"></div>
+    </div>
     <header id="about">
-
-        <nav class="nav">
-            <a href="#about"><img src="img/icons/home.png" alt="about"></a>
-            <a href="#tech"><img src="img/icons/skill.png" alt="tech"></a>
-            <a href="#experience"><img src="img/icons/work.png" alt="work"></a>
-            <a href="#education"><img src="img/icons/book.png" alt="education"></a>
-            <a href="#html"><img src="img/icons/html.png" alt="html" id="html-img"></a>
-            <a href="#js"><img src="img/icons/js.png" alt="js" id="js-img"></a>
-            <a href="#react"><img src="img/icons/react.png" alt="react" id="react-img"></a>
-            <a href="#animation"><img src="img/icons/animation.png" alt="animation" id="animation-img"></a>
-            <a href="#certificate"><img src="img/icons/certificate.png" alt="animation"></a>
-        </nav>
-        <div class="nav-burger">
-            <div class="burger-line burger-line1"></div>
-            <div class="burger-line burger-line2"></div>
-            <div class="burger-line burger-line3"></div>
-        </div>
         <h1 class="name text-xl">Олег Куць</h1>
-        <div class="about-top"></div>
-        <div class="about-center">
-            <img src="img/avatar/avatar1.png" alt="avatar" class="avatar-img">
-            <h1 class="name-phone">Олег Куць</h1>
-            <p class="about-headline text-sm">
-                Junior Frontend Developer с 1+ годом опыта веб-разработки. Основной акцент работы сосредоточен на
-                создании веб-приложений с использованием HTML, CSS, JavaScript.
-                Уверенные навыки работы с React, jQuery. Практический опыт владения Ps, Figma, GIT.
-            </p>
-            <a href="cv-file/Kuts_Oleg_CV.pdf" download class="btn">Скачать CV</a>
-        </div>
+        <div class="grid-container about-wrap">
+            <div></div>
+            <div class="about-center">
+                <img src="img/avatar/avatar1.png" alt="avatar" class="avatar-img">
+                <h1 class="name-phone text-lg">Олег Куць</h1>
+                <p class="about-headline text-sm">
+                    Junior Frontend Developer с 1+ годом опыта веб-разработки. Основной акцент работы сосредоточен на
+                    создании веб-приложений с использованием HTML, CSS, JavaScript.
+                    Уверенные навыки работы с React, jQuery. Практический опыт владения Ps, Figma, GIT.
+                </p>
 
-        <div class="social-icons">
-            <a href="tg://resolve?domain=oleoot"><img src="img/icons/telegram.svg" alt="telegram"
-                    class="social-icons-phone"></a>
-            <a href="https://github.com/oleoot" target="_blank"><img src="img/icons/github.svg" alt="github"
-                    class="social-icons-phone"></a>
-            <a href="tg://resolve?domain=oleoot"><img src="img/icons/icons-gold/telegram.svg" alt="telegram"
-                    class="social-icons-pc"></a>
-            <a href="https://github.com/oleoot" target="_blank"><img src="img/icons/icons-gold/github.svg" alt="github"
-                    class="social-icons-pc"></a>
-            <a href="https://www.linkedin.com/in/oleg-kouts/" target="_blank"><img src="img/icons/linkedin.svg"
-                    alt="linkedin"></a>
-            <a href="mailto:oleg.kouts@gmail.com"><img src="img/icons/mail.svg" alt="mail"></a>
+                <div class="social-icons" id="social-icons-mobile">
+                    <a href="tg://resolve?domain=oleoot"><img src="img/icons/telegram.svg" alt="telegram"></a>
+                    <a href="https://github.com/oleoot" target="_blank"><img src="img/icons/github.svg"
+                            alt="github"></a>
+                    <a href="https://www.linkedin.com/in/oleg-kouts/" target="_blank"><img src="img/icons/linkedin.svg"
+                            alt="linkedin"></a>
+                    <a href="mailto:oleg.kouts@gmail.com"><img src="img/icons/mail.svg" alt="mail"></a>
+                </div>
+                <a href="cv-file/Kuts_Oleg_CV.pdf" download class="btn flex-container-center align-center">Скачать
+                    CV</a>
+            </div>
+            <div class="social-icons" id="social-icons-default">
+                <a href="tg://resolve?domain=oleoot"><img src="img/icons/icons-gold/telegram.svg" alt="telegram"></a>
+                <a href="https://github.com/oleoot" target="_blank"><img src="img/icons/icons-gold/github.svg"
+                        alt="github"></a>
+                <a href="https://www.linkedin.com/in/oleg-kouts/" target="_blank"><img src="img/icons/linkedin.svg"
+                        alt="linkedin"></a>
+                <a href="mailto:oleg.kouts@gmail.com"><img src="img/icons/mail.svg" alt="mail"></a>
+            </div>
         </div>
-
+        <!-- <a href="cv-file/Kuts_Oleg_CV.pdf" download class="btn flex-container-center align-center">Скачать
+            CV</a> -->
     </header>
 
     <section id="tech">
@@ -103,22 +110,22 @@
                 <div class="items-s flex-container-center align-center">
                     <div class="tech-desc-wrap">
                         <div class="flex-container align-center">
-                            <p class="tech-headline text-lg">jQuery</p>
-                            <p class="tech-headline tech-percent text-sm">15%</p>
+                            <p class="tech-headline text-lg">React</p>
+                            <p class="tech-headline tech-percent text-sm">60%</p>
                         </div>
                         <div class="tech-progressBar">
-                            <div class="progressBar-filling" id="progressBar-filling-2"></div>
+                            <div class="progressBar-filling" id="progressBar-filling-5"></div>
                         </div>
                     </div>
                 </div>
                 <div class="items-s flex-container-center align-center">
                     <div class="tech-desc-wrap">
                         <div class="flex-container align-center">
-                            <p class="tech-headline text-lg">React</p>
-                            <p class="tech-headline tech-percent text-sm">60%</p>
+                            <p class="tech-headline text-lg">jQuery</p>
+                            <p class="tech-headline tech-percent text-sm">15%</p>
                         </div>
                         <div class="tech-progressBar">
-                            <div class="progressBar-filling" id="progressBar-filling-5"></div>
+                            <div class="progressBar-filling" id="progressBar-filling-2"></div>
                         </div>
                     </div>
                 </div>
@@ -167,7 +174,7 @@
                     </div>
                 </div>
             </div>
-            <p class="section-number text-xl text-lg">01</p>
+            <p class="section-number text-xl">01</p>
         </div>
     </section>
 
@@ -175,10 +182,10 @@
 
         <div class="container">
             <p class="section-headline text-xl">Опыт работы</p>
-            <div class="experience-wrap">
+            <div class="experience-wrap grid-container">
                 <div class="experience-block-border experience-block-bottom" id="experience-grid-top-left">
                     <p class="experience-headline text-lg">Интервьюер в GFK Ukraine</p>
-                    <p class="experience-date text-md">01.06.2016-10.08.2016</p>
+                    <p class="experience-date text-sm">01.06.2016-10.08.2016</p>
                     <p class="experience-description text-sm">Проведение социальных опросов и интервью согласно
                         требованиям
                         заказчика.
@@ -189,7 +196,7 @@
                 <div class="experience-block-border" id="experience-grid-bottom-left"></div>
                 <div class="experience-block-bottom" id="experience-grid-bottom-right">
                     <p class="experience-headline text-lg experience-headline text-lg-right">Консультант в Good Wine</p>
-                    <p class="experience-date text-md">20.07.2017 - 01.06.2019</p>
+                    <p class="experience-date text-sm">20.07.2017-01.06.2019</p>
                     <p class="experience-description text-sm experience-description-right">Сервисное обслуживание
                         покупателей.
                         Проведение переучетов.
@@ -197,7 +204,7 @@
                     <div class="experience-dot"></div>
                 </div>
             </div>
-            <p class="section-number text-xl text-lg">02</p>
+            <p class="section-number text-xl">02</p>
         </div>
     </section>
 
@@ -205,10 +212,10 @@
 
         <div class="container">
             <p class="section-headline text-xl">Образование</p>
-            <div class="experience-wrap">
-                <div class="experience-block-border experience-block-bottom light-text" id="education-grid-top-left">
+            <div class="experience-wrap grid-container">
+                <div class=" experience-block-border experience-block-bottom light-text" id="education-grid-top-left">
                     <p class="experience-headline text-lg">Курсы web-разработки ITEA (HTML/CSS)</p>
-                    <p class="experience-date text-md">16.10.2018 – 06.12.2018</p>
+                    <p class="experience-date text-sm">16.10.2018–06.12.2018</p>
                     <p class="experience-description text-sm">Полный цикл разработки frontend приложений с
                         использованием HTML5,
                         CSS3.
@@ -222,7 +229,7 @@
                         (JS Base/JS
                         Advanced)
                     </p>
-                    <p class="experience-date text-md">10.12.2018 - 08.02.2019</p>
+                    <p class="experience-date text-sm">10.12.2018-08.02.2019</p>
                     <p class="experience-description text-sm experience-description-right">Изучение JavaScript
                         от основ до
                         продвинутого уровня.
@@ -231,7 +238,7 @@
                 </div>
 
             </div>
-            <p class="section-number text-xl text-lg">03</p>
+            <p class="section-number text-xl">03</p>
         </div>
     </section>
 
@@ -241,38 +248,38 @@
             <div class="items-wrap">
                 <a href="https://boostfolia.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="boostfolia">
-                    <p class="text-xl" id="boostfolia-color">Boostfolia</p>
+                    <p class="text-project" id="boostfolia-color">Boostfolia</p>
                 </a>
                 <a href="https://silon.netlify.com/" target="_blank" class="items-m flex-container-center align-center"
                     id="silon">
-                    <p class="text-xl" id="silon-color">Silon</p>
+                    <p class="text-project" id="silon-color">Silon</p>
                 </a>
                 <a href="https://youfruit.000webhostapp.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="youfruit">
-                    <p class="text-xl" id="youfruit-color">YouFruit</p>
+                    <p class="text-project" id="youfruit-color">YouFruit</p>
                 </a>
                 <a href="https://snow-website.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="snow">
-                    <p class="text-xl" id="snow-color">Snow</p>
+                    <p class="text-project" id="snow-color">Snow</p>
                 </a>
                 <a href="https://merkury-website.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="merkury">
-                    <p class="text-xl" id="merkury-color">Merkury</p>
+                    <p class="text-project" id="merkury-color">Merkury</p>
                 </a>
                 <a href="https://mytunes-website.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="myTunes">
-                    <p class="text-xl" id="mytunes-color">MyTunes</p>
+                    <p class="text-project" id="mytunes-color">MyTunes</p>
                 </a>
                 <a href="https://data-warehouse.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="data-warehouse">
-                    <p class="text-xl" id="data-warehouse-color">Data <span>Warehouse</span></p>
+                    <p class="text-project" id="data-warehouse-color">Data <span>Warehouse</span></p>
                 </a>
                 <a href="https://netflix-main-page.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="netflix">
-                    <p class="text-xl" id="netflix-color">Netflix</p>
+                    <p class="text-project" id="netflix-color">Netflix</p>
                 </a>
             </div>
-            <p class="section-number text-xl text-lg">04</p>
+            <p class="section-number text-xl">04</p>
         </div>
     </section>
 
@@ -282,38 +289,38 @@
             <div class="items-wrap">
                 <a href="https://chat-room-app-ok.herokuapp.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="chat-room">
-                    <p class="text-xl" id="chatroom-color">Chat room</p>
+                    <p class="text-project" id="chatroom-color">Chat room</p>
                 </a>
                 <a href="https://random-password.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="password-generator">
-                    <p class="text-xl" id="password-color">Password Generator</p>
+                    <p class="text-project" id="password-color">Password Generator</p>
                 </a>
                 <a href="https://weather-app-site.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="weather">
-                    <p class="text-xl" id="weather-color">Weather</p>
+                    <p class="text-project" id="weather-color">Weather</p>
                 </a>
                 <a href="https://drum-machine-color-balls.netlify.com" target="_blank"
                     class="items-m flex-container-center align-center" id="drums">
-                    <p class="text-xl" id="drums-color">Drums</p>
+                    <p class="text-project" id="drums-color">Drums</p>
                 </a>
                 <a href="https://booklist-app.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="booklist">
-                    <p class="text-xl" id="booklist-color">booklist</p>
+                    <p class="text-project" id="booklist-color">booklist</p>
                 </a>
                 <a href="https://filterable-list-website.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="filtered-contacts">
-                    <p class="text-xl" id="filtered-color">Filtered contacts</p>
+                    <p class="text-project" id="filtered-color">Filtered contacts</p>
                 </a>
                 <a href="https://airpods-pro.netlify.com" target="_blank"
                     class="items-m flex-container-center align-center" id="airpods">
-                    <p class="text-xl" id="airpods-color">Airpods</p>
+                    <p class="text-project" id="airpods-color">Airpods</p>
                 </a>
                 <a href="https://text-to-speech-site.netlify.com" target="_blank"
                     class="items-m flex-container-center align-center" id="text-to-speech">
-                    <p class="text-xl" id="speech-color">Text to speech</p>
+                    <p class="text-project" id="speech-color">Text to speech</p>
                 </a>
             </div>
-            <p class="section-number text-xl text-lg">05</p>
+            <p class="section-number text-xl">05</p>
         </div>
     </section>
 
@@ -323,20 +330,20 @@
             <div class="items-wrap">
                 <a href="https://expense-tracker-website.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="expense-tracker">
-                    <p class="text-xl" id="tracker-color">Expense tracker</p>
+                    <p class="text-project" id="tracker-color">Expense tracker</p>
                 </a>
                 <a href="https://recipe-searching-app.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="recipe-search">
-                    <p class="text-xl" id="recipe-color">Recipe Search</p>
+                    <p class="text-project" id="recipe-color">Recipe Search</p>
                 </a>
                 <a href="https://sign-up-react.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="sign-up">
-                    <p class="text-xl" id="form-color">Sign-up<br>Form</p>
+                    <p class="text-project" id="form-color">Sign-up<br>Form</p>
                 </a>
 
 
             </div>
-            <p class="section-number text-xl text-lg">06</p>
+            <p class="section-number text-xl">06</p>
         </div>
     </section>
 
@@ -346,38 +353,38 @@
             <div class="items-wrap">
                 <a href="https://glitch-effect.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="glitch-effect">
-                    <p class="text-xl" id="glitch-color">Glitch<br>Effect</p>
+                    <p class="text-project" id="glitch-color">Glitch<br>Effect</p>
                 </a>
                 <a href="https://change-cursor-on-img.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="change-cursor">
-                    <p class="text-xl" id="cursor-color">Cursor change</p>
+                    <p class="text-project" id="cursor-color">Cursor change</p>
                 </a>
                 <a href="https://neon-text.netlify.com" target="_blank"
                     class="items-m flex-container-center align-center" id="neon-text">
-                    <p class="text-xl" id="neon-color">Neon Text</p>
+                    <p class="text-project" id="neon-color">Neon Text</p>
                 </a>
                 <a href="https://block-reveal.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="block-reveal">
-                    <p class="text-xl" id="reveal-color"><span>Block</span><br>Reveal</p>
+                    <p class="text-project" id="reveal-color"><span>Block</span><br>Reveal</p>
                 </a>
                 <a href="https://typewriting-site.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="typewritting">
-                    <p class="text-xl" id="typewriting-color">Typewriting</p>
+                    <p class="text-project" id="typewriting-color">Typewriting</p>
                 </a>
                 <a href="https://draggable-canvas.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="draggable-canvas">
-                    <p class="text-xl" id="canvas-color">draggable canvas</p>
+                    <p class="text-project" id="canvas-color">draggable canvas</p>
                 </a>
                 <a href="https://content-slider.netlify.com/" target="_blank"
                     class="items-m flex-container-center align-center" id="content-slider">
-                    <p class="text-xl" id="content-color">Content slider</p>
+                    <p class="text-project" id="content-color">Content slider</p>
                 </a>
                 <a href="https://dji.netlify.com/" target="_blank" class="items-m flex-container-center align-center"
                     id="dji">
-                    <p class="text-xl" id="dji-color">Dji</p>
+                    <p class="text-project" id="dji-color">Dji</p>
                 </a>
             </div>
-            <p class="section-number text-xl text-lg">07</p>
+            <p class="section-number text-xl">07</p>
         </div>
     </section>
 
@@ -395,7 +402,7 @@
                     <img src="img/certificates/js-advanced.png" alt="js-advanced">
                 </div>
             </div>
-            <p class="section-number text-xl text-lg">08</p>
+            <p class="section-number text-xl">08</p>
         </div>
     </section>
 

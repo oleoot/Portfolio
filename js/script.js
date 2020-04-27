@@ -51,28 +51,37 @@ $(document).ready(function () {
     });
 });
 // ========= Main page Animation =======================================================================================================
+// TweenMax.from(".about-top", 1.6, {
+//     opacity: 0,
+//     delay: 0.2,
+//     height: 0,
+//     ease: Expo.easeInOut
+// });
 TweenMax.from(".about-center", 1.6, {
     opacity: 0,
     delay: 0.2,
-    height: 0,
+    // width: 0,
+    y: 50,
     ease: Expo.easeInOut
 });
 TweenMax.from(".avatar-img", 1.6, {
     opacity: 0,
-    delay: 1,
+    delay: 0.8,
     // height: 0,
+    // y: 10,
     ease: Expo.easeInOut
 });
 TweenMax.from(".about-headline", 1.6, {
     opacity: 0,
     delay: 1.2,
-    height: 0,
+    // height: 0,
     ease: Expo.easeInOut
 });
 TweenMax.from(".btn", 1.6, {
     opacity: 0,
     delay: 1.5,
-    height: 0,
+    // height: 0,
+    y: 50,
     ease: Expo.easeInOut
 });
 TweenMax.staggerFrom(".social-icons a img", 1, {
@@ -137,7 +146,6 @@ progress.add(
     TweenMax.from(".tech-progressBar", 1, {
         opacity: 0,
         delay: 1.2,
-        height: 0,
         ease: Expo.easeInOut
     }),
 )
@@ -154,7 +162,7 @@ const sceneProgress = new ScrollMagic.Scene({
 filling.add(
 
     TweenMax.from(".progressBar-filling", 1.5, {
-        delay: 1.3,
+        delay: 1.8,
         width: 0,
         ease: Expo.easeInOut
     })
