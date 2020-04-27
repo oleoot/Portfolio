@@ -11,8 +11,6 @@
     user-select: none;
     pointer-events: none;
     }
-
-
     .cursor:before{
     content: "";
     width: 100%;
@@ -28,8 +26,6 @@
     border-radius: 100%;
     opacity: 0;
     }
-
-
     .cursor.active{
     opacity: 1;
     transform: scale(12);
@@ -49,7 +45,6 @@
     pointer-events: none;
     transform: translate(4px, 4px);
     }
-
     .cursor-follower.active{
      opacity: 0.3s;
      transform: scale(0);
