@@ -55,6 +55,9 @@
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/text-to-speech/text-to-speech-bg.png) center/100% 100%;
     }
     /* React Projects */
+    #youfruit{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/youfruit/youfruit-bg.png) center/100% 100%;
+    }
     #expense-tracker{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/expense-tracker/expense-tracker-bg.png) center/100% 100%;
     }
