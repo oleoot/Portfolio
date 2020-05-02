@@ -48,6 +48,9 @@
     #filtered-contacts{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/filtered-contacts/filtered-contacts-bg.png) center/100% 100%;
     }
+    #split-screen{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/split-screen-slider/split-screen-slider-bg.png) center/100% 100%;
+    }
     #airpods{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/airpods/airpods-bg.png) center/100% 100%;
     }
