@@ -86,6 +86,9 @@
     #typewritting{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/type-writting/typewritting-bg.png) center/100% 100%;
     }
+    #text-reveal{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/text-reveal/text-reveal-bg.png) center/100% 100%;
+    }
     #draggable-canvas{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/draggable-canvas/draggable-canvas-bg.png) center/100% 100%;
     }
