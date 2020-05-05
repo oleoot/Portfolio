@@ -98,3 +98,9 @@
     #dji{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/dji/dji-bg.png) center/100% 100%;
     }
+    #gif-preloader{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/gif-preloader/gif-preloader-bg.png) center/100% 100%;
+    }
+    #smooth-scroll{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/smooth-scroll/smooth-scroll-bg.png) center/100% 100%;
+    }
