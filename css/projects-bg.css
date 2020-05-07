@@ -54,11 +54,17 @@
     #split-screen{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/split-screen-slider/split-screen-slider-bg.png) center/100% 100%;
     }
+    #bored-api{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/bored-api/bored-api-bg.png) center/100% 100%;
+    }
     #airpods{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/airpods/airpods-bg.png) center/100% 100%;
     }
     #text-to-speech{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/text-to-speech/text-to-speech-bg.png) center/100% 100%;
+    }
+    #rick-morty{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/rick-and-morty/rick-and-morty-bg.jpg) center/100% 100%;
     }
     /* React Projects */
     #youfruit{
