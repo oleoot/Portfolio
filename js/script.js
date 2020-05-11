@@ -41,6 +41,7 @@ $(".items-m").on("mouseleave", function () {
     cursor.removeClass("active");
     follower.removeClass("active");
 });
+
 // ========= Smooth scrolling ========================================================================================================
 $(document).ready(function () {
     $(".nav").on("click", "a", function (event) {

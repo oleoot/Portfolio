@@ -286,6 +286,30 @@ font-weight: 300;
 span{
 color: #ADADAD;
 }
+.github-link{
+background: #fff;
+box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+border-radius: 50%;
+width: 3vw;
+height: 3vw;
+position: absolute;
+z-index: 1000000;
+bottom: 20px;
+right: 20px;
+outline: none;
+}
+.github-link img{
+display: block;
+width: 100%;
+height: 100%;
+}
+.item-m-overlay{
+position:absolute;
+left:0;
+top:0;
+bottom:0;
+right:0;
+}
 .items-wrap{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -305,6 +329,7 @@ box-shadow: 0 20px 60px rgba(0,0,0,0.5);
 background: var(--items-bg);
 text-decoration: none;
 transition: all 0.5s cubic-bezier(0.25, 1, 0.3,1);
+position: relative;
 }
 .items-m p{
 text-transform: uppercase;
@@ -498,6 +523,10 @@ height: 29vw;
 .items-m:hover{
 transform: scale(1);
 }
+.github-link{
+width: 5vw;
+height: 5vw;
+}
 }
 @media screen and (max-width: 850px){
 /* About section =====================================================================================================================================*/
@@ -521,6 +550,10 @@ width: 250px;
 /* Utility classes =============================================================================================================================*/
 .text-xl{
 font-size: 40px;
+}
+.github-link{
+bottom: 10px;
+right: 10px;
 }
 }
 @media screen and (max-width: 720px){
@@ -579,6 +612,10 @@ grid-template-columns: 1fr 1fr;
 }
 .items-m {
 height: 48vw;
+}
+.github-link{
+width: 7vw;
+height: 7vw;
 }
 }
 @media screen and (max-width: 540px){
@@ -682,5 +719,9 @@ height: 100vw;
 }
 .text-project{
 font-size: 12vw;
+}
+.github-link{
+width: 15vw;
+height: 15vw;
 }
 }
