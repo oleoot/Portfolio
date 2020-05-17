@@ -18,11 +18,11 @@ background: var(--dark-color);
 flex-direction: column;
 }
 .nav a{
-padding: 20px;
+padding: 15px;
 overflow-y: hidden;
 }
 .nav a img{
-width: 50px;
+width: 45px;
 }
 /* ============== About Section========================================================================================= */
 #about{
@@ -415,6 +415,10 @@ transition: transform 0.5s ease-in;
 padding: 15px 0;
 overflow-y: hidden;
 }
+.nav a img{
+width: 35px;
+height: 35px;
+}
 .nav-active{
 transform: translateX(0);
 }
@@ -547,6 +551,9 @@ margin: -150px auto 30px;
 .btn{
 width: 250px;
 }
+.nav a{
+padding: 10px 0;
+}
 /* Utility classes =============================================================================================================================*/
 .text-xl{
 font-size: 40px;
@@ -654,6 +661,13 @@ bottom: -70px;
 .btn{
 bottom: -140px;
 }
+.nav{
+padding-top: 20px;
+}
+.nav a img{
+width: 30px;
+height: 30px;
+}
 /* Experience section =============================================================================================================================*/
 .experience-wrap{
 grid-template-columns: 1fr;
@@ -703,6 +717,12 @@ min-width: 310px;
 .avatar-img{
 width: 200px;
 margin: -100px auto 30px;
+}
+}
+@media screen and (max-width: 360px){
+/* About section =============================================================================================================================*/
+.nav a{
+padding: 5px;
 }
 }
 @media screen and (max-width: 320px){

@@ -88,6 +88,11 @@
 #sign-up{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/sign-up/sign-up-bg.png) center/100% 100%;
 }
+
+  /* Node Js Projects */
+#weather-pollution{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/nodejs/weather-pollution/weather-pollution-bg.png) center/100% 100%;
+}
     /* Animation Projects */
     #glitch-effect{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/glitch/glitch-bg.png) center/100% 100%;
