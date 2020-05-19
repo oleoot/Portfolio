@@ -13,6 +13,9 @@
     #snow{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/snow/snow-bg.png) center/100% 100%;
     }
+    #delicious-sushi{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/delicious-sushi/delicious-sushi-bg.png) center/100% 100%;
+    }
     #merkury{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/merkury/merkury-bg.png) center/100% 100%;
     }
