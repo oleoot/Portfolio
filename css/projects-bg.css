@@ -45,6 +45,9 @@
     #snake-game{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/snake-game/snake-bg.png) center/100% 100%;
     }
+    #form-validation{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/form-validation/form-validation-bg.png) center/100% 100%;
+    }
     #drums{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/drums/drums-bg.png) center/100% 100%;
     }
