@@ -149,7 +149,7 @@ border-radius: 10px;
 }#progressBar-filling-7{
     width: 70%;
 }#progressBar-filling-8{
-    width: 10%;
+    width: 40%;
 }#progressBar-filling-9{
     width: 60%;
 }
@@ -235,7 +235,7 @@ margin: 0 10px;
 section{
 padding: 100px 0;
 }
-#tech,#html, #react, #certificate, #footer{
+#tech,#html, #react, #animation, #certificate, #footer{
 background: var(--dark-section-color);
 }
 .container{

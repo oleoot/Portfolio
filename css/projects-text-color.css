@@ -33,9 +33,6 @@ color: #9C69E2;
 color: #E50914;
 }
 /* JS ============================================================================================================= */
-#chatroom-color{
-color: #FFBB00;
-}
 #password-color{
 color:#DCD0FF;
 }
@@ -69,6 +66,9 @@ color: #fff;
 #airpods-color{
 color: #fff;
 }
+#drag-drop-color{
+color: #aa4b6b;
+}
 #speech-color{
 color: #F08080;
 }
@@ -94,6 +94,12 @@ color: #fff;
 /* NodeJS ============================================================================================================= */
 #weather-pollution-color{
 color: #fff;
+}
+#twitter-color{
+color:#1DA1F2;
+}
+#chatroom-color{
+color: #FFBB00;
 }
 /* Animation ============================================================================================================= */
 #glitch-color{

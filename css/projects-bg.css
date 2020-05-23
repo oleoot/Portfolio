@@ -33,9 +33,6 @@
     background-size: cover;
     }
     /* JavaScript Projects */
-     #chat-room{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/chat-room/chat-room-bg.png) center/100% 100%;
-    }
     #password-generator{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/password-generator/password-generator-bg.png) center/100% 100%;
     }
@@ -66,6 +63,9 @@
     #bored-api{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/bored-api/bored-api-bg.png) center/100% 100%;
     }
+    #drag-drop{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/drag-drop/drag-drop-bg.png) center/100% 100%;
+    }
     #airpods{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/airpods/airpods-bg.png) center/100% 100%;
     }
@@ -88,14 +88,19 @@
     #recipe-search{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/recipe-searching/recipe-search-bg.png) center/100% 100%;
     }
-#sign-up{
+    #sign-up{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/sign-up/sign-up-bg.png) center/100% 100%;
-}
-
-  /* Node Js Projects */
-#weather-pollution{
+    }
+    /* Node Js Projects */
+    #weather-pollution{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/nodejs/weather-pollution/weather-pollution-bg.png) center/100% 100%;
-}
+    }
+    #twitter-clone{
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(../img/projects/nodejs/twitter-clone/twitter-clone-bg.png) center/100% 100%;
+    }
+    #chat-room{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/nodejs/chat-room/chat-room-bg.png) center/100% 100%;
+    }
     /* Animation Projects */
     #glitch-effect{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/glitch/glitch-bg.png) center/100% 100%;
