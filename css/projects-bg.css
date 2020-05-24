@@ -1,140 +1,187 @@
 /* HTML & CSS Projects */
-    #boostfolia{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/boostfolia/boostfolia-bg.png);
+#boostfolia {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/boostfolia/boostfolia-bg.png);
     background-size: cover;
-    }
-    #silon{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/silon/silon-bg.png);
+}
+
+#silon {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/silon/silon-bg.png);
     background-size: cover;
-    }
-    #dance-tour{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/dance-tour/dance-tour-bg.png) center/100% 100%;
-    }
-    #snow{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/snow/snow-bg.png) center/100% 100%;
-    }
-    #delicious-sushi{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/delicious-sushi/delicious-sushi-bg.png) center/100% 100%;
-    }
-    #merkury{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/merkury/merkury-bg.png) center/100% 100%;
-    }
-    #myTunes{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/myTunes/showcase.png) center/100% 100%;
-    }
-    #coffee-shop{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/coffee-shop/coffee-shop-bg.png) center/100% 100%;
-    }
-    #data-warehouse{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/data-warehouse/data-warehouse-bg.png) center/100% 100%;
-    }
-    #netflix{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/html-css/netflix/netflix-bckg.png);
+}
+
+#dance-tour {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/dance-tour/dance-tour-bg.png) center/100% 100%;
+}
+
+#snow {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/snow/snow-bg.png) center/100% 100%;
+}
+
+#delicious-sushi {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/delicious-sushi/delicious-sushi-bg.png) center/100% 100%;
+}
+
+#merkury {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/merkury/merkury-bg.png) center/100% 100%;
+}
+
+#myTunes {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/myTunes/showcase.png) center/100% 100%;
+}
+
+#cosmo-junkie {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/cosmo-junkie/cosmo-junkie-bg.png) center/100% 100%;
+}
+
+#coffee-shop {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/coffee-shop/coffee-shop-bg.png) center/100% 100%;
+}
+
+#data-warehouse {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/data-warehouse/data-warehouse-bg.png) center/100% 100%;
+}
+
+#netflix {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/netflix/netflix-bckg.png);
     background-size: cover;
-    }
-    /* JavaScript Projects */
-    #password-generator{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/password-generator/password-generator-bg.png) center/100% 100%;
-    }
-    #weather{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/weather/weather-bg.png) center/100% 100%;
-    }
-    #shopping-cart{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/shopping-cart-js/shopping-cart-js-bg.png) center/100% 100%;
-    }
-    #snake-game{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/snake-game/snake-bg.png) center/100% 100%;
-    }
-    #form-validation{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/form-validation/form-validation-bg.png) center/100% 100%;
-    }
-    #drums{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/drums/drums-bg.png) center/100% 100%;
-    }
-    #booklist{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/books-list/books-list-bg.png) center/100% 100%;
-    }
-    #filtered-contacts{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/filtered-contacts/filtered-contacts-bg.png) center/100% 100%;
-    }
-    #split-screen{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/split-screen-slider/split-screen-slider-bg.png) center/100% 100%;
-    }
-    #face-recognition{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/face-recognition/face-recognition-bg.png) center/100% 100%;
-    }
-    #bored-api{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/bored-api/bored-api-bg.png) center/100% 100%;
-    }
-    #drag-drop{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/drag-drop/drag-drop-bg.png) center/100% 100%;
-    }
-    #airpods{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/airpods/airpods-bg.png) center/100% 100%;
-    }
-    #text-to-speech{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/text-to-speech/text-to-speech-bg.png) center/100% 100%;
-    }
-    #rick-morty{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/js/rick-and-morty/rick-and-morty-bg.jpg) center/100% 100%;
-    }
-    /* React Projects */
-    #youfruit{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/youfruit/youfruit-bg.png) center/100% 100%;
-    }
-    #expense-tracker{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/expense-tracker/expense-tracker-bg.png) center/100% 100%;
-    }
-    #todo-hooks{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/todo-hooks/todo-hooks-bg.png) center/100% 100%;
-    }
-    #recipe-search{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/recipe-searching/recipe-search-bg.png) center/100% 100%;
-    }
-    #sign-up{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/react/sign-up/sign-up-bg.png) center/100% 100%;
-    }
-    /* Node Js Projects */
-    #weather-pollution{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/nodejs/weather-pollution/weather-pollution-bg.png) center/100% 100%;
-    }
-    #twitter-clone{
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(../img/projects/nodejs/twitter-clone/twitter-clone-bg.png) center/100% 100%;
-    }
-    #chat-room{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/nodejs/chat-room/chat-room-bg.png) center/100% 100%;
-    }
-    /* Animation Projects */
-    #glitch-effect{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/glitch/glitch-bg.png) center/100% 100%;
-    }
-    #change-cursor{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/change-cursor/change-cursor-bg.png) center/100% 100%;
-    }
-    #neon-text{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/neon-text/neon-text-bg.png) center/100% 100%;
-    }
-    #block-reveal{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/block-reveal/block-reveal-bg.png) center/100% 100%;
-    }
-    #typewritting{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/type-writting/typewritting-bg.png) center/100% 100%;
-    }
-    #text-reveal{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/text-reveal/text-reveal-bg.png) center/100% 100%;
-    }
-    #draggable-canvas{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/draggable-canvas/draggable-canvas-bg.png) center/100% 100%;
-    }
-    #content-slider{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/slider/content-slider-bg.png) center/100% 100%;
-    }
-    #dji{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/dji/dji-bg.png) center/100% 100%;
-    }
-    #gif-preloader{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/gif-preloader/gif-preloader-bg.png) center/100% 100%;
-    }
-    #smooth-scroll{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/projects/animation/smooth-scroll/smooth-scroll-bg.png) center/100% 100%;
-    }
+}
+
+/* JavaScript Projects */
+#password-generator {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/password-generator/password-generator-bg.png) center/100% 100%;
+}
+
+#weather {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/weather/weather-bg.png) center/100% 100%;
+}
+
+#shopping-cart {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/shopping-cart-js/shopping-cart-js-bg.png) center/100% 100%;
+}
+
+#snake-game {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/snake-game/snake-bg.png) center/100% 100%;
+}
+
+#form-validation {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/form-validation/form-validation-bg.png) center/100% 100%;
+}
+
+#drums {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/drums/drums-bg.png) center/100% 100%;
+}
+
+#booklist {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/books-list/books-list-bg.png) center/100% 100%;
+}
+
+#filtered-contacts {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/filtered-contacts/filtered-contacts-bg.png) center/100% 100%;
+}
+
+#split-screen {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/split-screen-slider/split-screen-slider-bg.png) center/100% 100%;
+}
+
+#face-recognition {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/face-recognition/face-recognition-bg.png) center/100% 100%;
+}
+
+#bored-api {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/bored-api/bored-api-bg.png) center/100% 100%;
+}
+
+#drag-drop {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/drag-drop/drag-drop-bg.png) center/100% 100%;
+}
+
+#airpods {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/airpods/airpods-bg.png) center/100% 100%;
+}
+
+#text-to-speech {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/text-to-speech/text-to-speech-bg.png) center/100% 100%;
+}
+
+#rick-morty {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/rick-and-morty/rick-and-morty-bg.jpg) center/100% 100%;
+}
+
+/* React Projects */
+#youfruit {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/youfruit/youfruit-bg.png) center/100% 100%;
+}
+
+#expense-tracker {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/expense-tracker/expense-tracker-bg.png) center/100% 100%;
+}
+
+#todo-hooks {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/todo-hooks/todo-hooks-bg.png) center/100% 100%;
+}
+
+#recipe-search {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/recipe-searching/recipe-search-bg.png) center/100% 100%;
+}
+
+#sign-up {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/sign-up/sign-up-bg.png) center/100% 100%;
+}
+
+/* Node Js Projects */
+#weather-pollution {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/nodejs/weather-pollution/weather-pollution-bg.png) center/100% 100%;
+}
+
+#twitter-clone {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/projects/nodejs/twitter-clone/twitter-clone-bg.png) center/100% 100%;
+}
+
+#chat-room {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/nodejs/chat-room/chat-room-bg.png) center/100% 100%;
+}
+
+/* Animation Projects */
+#glitch-effect {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/glitch/glitch-bg.png) center/100% 100%;
+}
+
+#change-cursor {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/change-cursor/change-cursor-bg.png) center/100% 100%;
+}
+
+#neon-text {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/neon-text/neon-text-bg.png) center/100% 100%;
+}
+
+#block-reveal {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/block-reveal/block-reveal-bg.png) center/100% 100%;
+}
+
+#typewritting {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/type-writting/typewritting-bg.png) center/100% 100%;
+}
+
+#text-reveal {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/text-reveal/text-reveal-bg.png) center/100% 100%;
+}
+
+#draggable-canvas {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/draggable-canvas/draggable-canvas-bg.png) center/100% 100%;
+}
+
+#content-slider {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/slider/content-slider-bg.png) center/100% 100%;
+}
+
+#dji {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/dji/dji-bg.png) center/100% 100%;
+}
+
+#gif-preloader {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/gif-preloader/gif-preloader-bg.png) center/100% 100%;
+}
+
+#smooth-scroll {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/smooth-scroll/smooth-scroll-bg.png) center/100% 100%;
+}
