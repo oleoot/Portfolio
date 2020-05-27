@@ -133,6 +133,10 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/nodejs/weather-pollution/weather-pollution-bg.png) center/100% 100%;
 }
 
+#travel-log-app {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/nodejs/travel-log-app/travel-log-app-bg.png) center/100% 100%;
+}
+
 #twitter-clone {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/projects/nodejs/twitter-clone/twitter-clone-bg.png) center/100% 100%;
 }
