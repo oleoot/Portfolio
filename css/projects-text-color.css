@@ -88,6 +88,10 @@
     color: #00ffe1;
 }
 
+#relax-color {
+    color: #fff;
+}
+
 #bored-color {
     color: #fff;
 }
@@ -113,8 +117,16 @@
     color: #fff;
 }
 
+#hot-ones-color {
+    color: #FFCF00;
+}
+
 #tracker-color {
     color: #D3AE87;
+}
+
+#reading-list-color {
+    color: #fff;
 }
 
 #recipe-color {
@@ -123,6 +135,14 @@
 
 #todo-hooks-color {
     color: #adadad;
+}
+
+#page-translate-color {
+    color: #FDDCBB;
+}
+
+#theme-change {
+    color: #fff;
 }
 
 #form-color {
@@ -192,5 +212,9 @@
 }
 
 #scroll-color {
+    color: #fff;
+}
+
+#text-appear-color {
     color: #fff;
 }

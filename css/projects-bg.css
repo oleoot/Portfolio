@@ -87,6 +87,10 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/face-recognition/face-recognition-bg.png) center/100% 100%;
 }
 
+#relax-app {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/relax-app/relax-app-bg.png) center/100% 100%;
+}
+
 #bored-api {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/js/bored-api/bored-api-bg.png) center/100% 100%;
 }
@@ -112,16 +116,32 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/youfruit/youfruit-bg.png) center/100% 100%;
 }
 
+#hot-ones {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/hot-ones-hot-sauces/hot-ones-hot-sauces-bg.png) center/100% 100%;
+}
+
 #expense-tracker {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/expense-tracker/expense-tracker-bg.png) center/100% 100%;
+}
+
+#reading-list {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/reading-list/reading-list-bg.png) center/100% 100%;
 }
 
 #todo-hooks {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/todo-hooks/todo-hooks-bg.png) center/100% 100%;
 }
 
+#page-translate {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/page-translation/page-translation-bg.png) center/100% 100%;
+}
+
 #recipe-search {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/recipe-searching/recipe-search-bg.png) center/100% 100%;
+}
+
+#theme-change {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/react/context-hooks-theme-change/context-hooks-theme-change-bg.png) center/100% 100%;
 }
 
 #sign-up {
@@ -188,4 +208,8 @@
 
 #smooth-scroll {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/smooth-scroll/smooth-scroll-bg.png) center/100% 100%;
+}
+
+#text-appear {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/animation/text-appear/text-appear.png) center/100% 100%;
 }
