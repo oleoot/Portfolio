@@ -17,6 +17,10 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/lasles-vpn/lasles-bg.png) center/100% 100%;
 }
 
+#freehand {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/Freehand/freehand-bg.png) center/100% 100%;
+}
+
 #snow {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/projects/html-css/snow/snow-bg.png) center/100% 100%;
 }
